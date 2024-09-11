@@ -1,0 +1,202 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{61734C85-F0F5-41A6-A38C-873B11E8856A}|SpeedVechile.WepApp\\SpeedVechile.WepApp.csproj|c:\\users\\admin\\source\\repos\\goldenspeedvechile\\speedvechile.wepapp\\areas\\admin\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61734C85-F0F5-41A6-A38C-873B11E8856A}|SpeedVechile.WepApp\\SpeedVechile.WepApp.csproj|solutionrelative:speedvechile.wepapp\\areas\\admin\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61734C85-F0F5-41A6-A38C-873B11E8856A}|SpeedVechile.WepApp\\SpeedVechile.WepApp.csproj|c:\\users\\admin\\source\\repos\\goldenspeedvechile\\speedvechile.wepapp\\areas\\customer\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{61734C85-F0F5-41A6-A38C-873B11E8856A}|SpeedVechile.WepApp\\SpeedVechile.WepApp.csproj|solutionrelative:speedvechile.wepapp\\areas\\customer\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AABA3D7-CED8-40BC-84E9-B32EDBCE91D4}|SpeedVechile.Infrastructure\\SpeedVechile.Infrastructure.csproj|c:\\users\\admin\\source\\repos\\goldenspeedvechile\\speedvechile.infrastructure\\comman\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AABA3D7-CED8-40BC-84E9-B32EDBCE91D4}|SpeedVechile.Infrastructure\\SpeedVechile.Infrastructure.csproj|solutionrelative:speedvechile.infrastructure\\comman\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61734C85-F0F5-41A6-A38C-873B11E8856A}|SpeedVechile.WepApp\\SpeedVechile.WepApp.csproj|c:\\users\\admin\\source\\repos\\goldenspeedvechile\\speedvechile.wepapp\\areas\\customer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61734C85-F0F5-41A6-A38C-873B11E8856A}|SpeedVechile.WepApp\\SpeedVechile.WepApp.csproj|solutionrelative:speedvechile.wepapp\\areas\\customer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61734C85-F0F5-41A6-A38C-873B11E8856A}|SpeedVechile.WepApp\\SpeedVechile.WepApp.csproj|c:\\users\\admin\\source\\repos\\goldenspeedvechile\\speedvechile.wepapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61734C85-F0F5-41A6-A38C-873B11E8856A}|SpeedVechile.WepApp\\SpeedVechile.WepApp.csproj|solutionrelative:speedvechile.wepapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61734C85-F0F5-41A6-A38C-873B11E8856A}|SpeedVechile.WepApp\\SpeedVechile.WepApp.csproj|c:\\users\\admin\\source\\repos\\goldenspeedvechile\\speedvechile.wepapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{61734C85-F0F5-41A6-A38C-873B11E8856A}|SpeedVechile.WepApp\\SpeedVechile.WepApp.csproj|solutionrelative:speedvechile.wepapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61734C85-F0F5-41A6-A38C-873B11E8856A}|SpeedVechile.WepApp\\SpeedVechile.WepApp.csproj|c:\\users\\admin\\source\\repos\\goldenspeedvechile\\speedvechile.wepapp\\areas\\customer\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{61734C85-F0F5-41A6-A38C-873B11E8856A}|SpeedVechile.WepApp\\SpeedVechile.WepApp.csproj|solutionrelative:speedvechile.wepapp\\areas\\customer\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AABA3D7-CED8-40BC-84E9-B32EDBCE91D4}|SpeedVechile.Infrastructure\\SpeedVechile.Infrastructure.csproj|c:\\users\\admin\\source\\repos\\goldenspeedvechile\\speedvechile.infrastructure\\repositories\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AABA3D7-CED8-40BC-84E9-B32EDBCE91D4}|SpeedVechile.Infrastructure\\SpeedVechile.Infrastructure.csproj|solutionrelative:speedvechile.infrastructure\\repositories\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AABA3D7-CED8-40BC-84E9-B32EDBCE91D4}|SpeedVechile.Infrastructure\\SpeedVechile.Infrastructure.csproj|c:\\users\\admin\\source\\repos\\goldenspeedvechile\\speedvechile.infrastructure\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AABA3D7-CED8-40BC-84E9-B32EDBCE91D4}|SpeedVechile.Infrastructure\\SpeedVechile.Infrastructure.csproj|solutionrelative:speedvechile.infrastructure\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61734C85-F0F5-41A6-A38C-873B11E8856A}|SpeedVechile.WepApp\\SpeedVechile.WepApp.csproj|c:\\users\\admin\\source\\repos\\goldenspeedvechile\\speedvechile.wepapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{61734C85-F0F5-41A6-A38C-873B11E8856A}|SpeedVechile.WepApp\\SpeedVechile.WepApp.csproj|solutionrelative:speedvechile.wepapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD163BED-D48E-4A9D-8EBA-FD314AF72049}|SpeedVechile.Domain\\SpeedVechile.Domain.csproj|c:\\users\\admin\\source\\repos\\goldenspeedvechile\\speedvechile.domain\\viewmodel\\customerdetailsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD163BED-D48E-4A9D-8EBA-FD314AF72049}|SpeedVechile.Domain\\SpeedVechile.Domain.csproj|solutionrelative:speedvechile.domain\\viewmodel\\customerdetailsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.Infrastructure\\Comman\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "SpeedVechile.Infrastructure\\Comman\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.Infrastructure\\Comman\\ApplicationDbContext.cs",
+              "RelativeToolTip": "SpeedVechile.Infrastructure\\Comman\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T05:14:27.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BrandController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\Areas\\Admin\\Controllers\\BrandController.cs",
+              "RelativeDocumentMoniker": "SpeedVechile.WepApp\\Areas\\Admin\\Controllers\\BrandController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\Areas\\Admin\\Controllers\\BrandController.cs",
+              "RelativeToolTip": "SpeedVechile.WepApp\\Areas\\Admin\\Controllers\\BrandController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAAB0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T17:30:11.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\appsettings.json",
+              "RelativeDocumentMoniker": "SpeedVechile.WepApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\appsettings.json",
+              "RelativeToolTip": "SpeedVechile.WepApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-05T17:22:21.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PostRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.Infrastructure\\Repositories\\PostRepository.cs",
+              "RelativeDocumentMoniker": "SpeedVechile.Infrastructure\\Repositories\\PostRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.Infrastructure\\Repositories\\PostRepository.cs",
+              "RelativeToolTip": "SpeedVechile.Infrastructure\\Repositories\\PostRepository.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAiwE4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T06:40:41.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CustomerDetailsVM.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.Domain\\ViewModel\\CustomerDetailsVM.cs",
+              "RelativeDocumentMoniker": "SpeedVechile.Domain\\ViewModel\\CustomerDetailsVM.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.Domain\\ViewModel\\CustomerDetailsVM.cs",
+              "RelativeToolTip": "SpeedVechile.Domain\\ViewModel\\CustomerDetailsVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T06:39:11.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\Areas\\Customer\\Views\\Home\\Details.cshtml",
+              "RelativeDocumentMoniker": "SpeedVechile.WepApp\\Areas\\Customer\\Views\\Home\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\Areas\\Customer\\Views\\Home\\Details.cshtml",
+              "RelativeToolTip": "SpeedVechile.WepApp\\Areas\\Customer\\Views\\Home\\Details.cshtml",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAgwIMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T06:38:04.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\Areas\\Customer\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "SpeedVechile.WepApp\\Areas\\Customer\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\Areas\\Customer\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "SpeedVechile.WepApp\\Areas\\Customer\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAF0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-03T16:28:27.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\Areas\\Customer\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "SpeedVechile.WepApp\\Areas\\Customer\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\Areas\\Customer\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "SpeedVechile.WepApp\\Areas\\Customer\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAAADoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T16:25:52.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.Infrastructure\\UnitOfWork\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "SpeedVechile.Infrastructure\\UnitOfWork\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.Infrastructure\\UnitOfWork\\UnitOfWork.cs",
+              "RelativeToolTip": "SpeedVechile.Infrastructure\\UnitOfWork\\UnitOfWork.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAIBJwCkAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T15:18:11.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SpeedVechile.WepApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SpeedVechile.WepApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAIBJwDEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-03T06:56:02.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\Program.cs",
+              "RelativeDocumentMoniker": "SpeedVechile.WepApp\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\Program.cs",
+              "RelativeToolTip": "SpeedVechile.WepApp\\Program.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAAE0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T06:31:24.397Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,971 @@
+2024-09-05 23:17:20.389 +05:30 [INF] Executed DbCommand (180ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2024-09-05 23:17:20.726 +05:30 [INF] Executed DbCommand (31ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2024-09-05 23:17:20.769 +05:30 [INF] Executed DbCommand (37ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2024-09-05 23:17:20.982 +05:30 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-09-05 23:17:21.002 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-09-05 23:17:21.008 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-09-05 23:17:21.013 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-09-05 23:17:21.054 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-09-05 23:17:21.100 +05:30 [INF] No migrations were applied. The database is already up to date.
+2024-09-05 23:17:21.321 +05:30 [INF] Executed DbCommand (152ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [VehicleType] AS [v]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2024-09-05 23:17:21.688 +05:30 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-05 23:17:22.950 +05:30 [INF] Now listening on: https://localhost:7171
+2024-09-05 23:17:22.951 +05:30 [INF] Now listening on: http://localhost:5217
+2024-09-05 23:17:23.046 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-05 23:17:23.059 +05:30 [INF] Hosting environment: Development
+2024-09-05 23:17:23.062 +05:30 [INF] Content root path: C:\Users\Admin\source\repos\GoldenSpeedVechile\SpeedVechile.WepApp
+2024-09-05 23:17:27.899 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/ - null null
+2024-09-05 23:17:28.271 +05:30 [INF] Executing endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:17:28.316 +05:30 [INF] Route matched with {area = "Customer", action = "Index", controller = "Home", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.Nullable`1[System.Int32], Boolean) on controller SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController (SpeedVechile.WepApp).
+2024-09-05 23:17:28.543 +05:30 [INF] Executed DbCommand (113ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[BrandLogo], [b].[CreatedBy], [b].[CreatedOn], [b].[EstablishedYear], [b].[ModifiedBy], [b].[ModifiedOn], [b].[Name]
+FROM [Brand] AS [b]
+2024-09-05 23:17:28.580 +05:30 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[CreatedBy], [v].[CreatedOn], [v].[ModifiedBy], [v].[ModifiedOn], [v].[Name]
+FROM [VehicleType] AS [v]
+2024-09-05 23:17:28.922 +05:30 [INF] Accessing expired session, Key:02ab65ce-21f4-062c-137b-d16e5ed13c58
+2024-09-05 23:17:28.938 +05:30 [INF] Executing ViewResult, running view Index.
+2024-09-05 23:17:29.319 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/SpeedVechile.WepApp.styles.css?v=2PdFMUcAONOjOAnveTeWcpr8EWeEy8K1cDemIsnD9x0 - null null
+2024-09-05 23:17:29.325 +05:30 [INF] Executed ViewResult - view Index executed in 389.821ms.
+2024-09-05 23:17:29.345 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_vs/browserLink - null null
+2024-09-05 23:17:29.346 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-05 23:17:29.358 +05:30 [INF] Executed action SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp) in 1037.7815ms
+2024-09-05 23:17:29.358 +05:30 [INF] The file /SpeedVechile.WepApp.styles.css was not modified
+2024-09-05 23:17:29.368 +05:30 [INF] Executed endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:17:29.388 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/SpeedVechile.WepApp.styles.css?v=2PdFMUcAONOjOAnveTeWcpr8EWeEy8K1cDemIsnD9x0 - 304 null text/css 56.6694ms
+2024-09-05 23:17:29.392 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 51.9544ms
+2024-09-05 23:17:29.394 +05:30 [INF] Session started; Key:02ab65ce-21f4-062c-137b-d16e5ed13c58, Id:3678d96b-b38a-7a8e-ab85-92e1d747ca91
+2024-09-05 23:17:29.528 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/ - 200 null text/html; charset=utf-8 1644.272ms
+2024-09-05 23:17:29.612 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_vs/browserLink - 200 null text/javascript; charset=UTF-8 267.0662ms
+2024-09-05 23:17:37.288 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/Identity/Account/Login - null null
+2024-09-05 23:17:37.314 +05:30 [INF] Executing endpoint '/Account/Login'
+2024-09-05 23:17:37.341 +05:30 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-09-05 23:17:37.361 +05:30 [INF] Executing handler method SpeedVechile.WepApp.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2024-09-05 23:17:37.370 +05:30 [INF] AuthenticationScheme: Identity.External signed out.
+2024-09-05 23:17:37.374 +05:30 [INF] Executed handler method OnGetAsync, returned result .
+2024-09-05 23:17:37.380 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-09-05 23:17:37.383 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-09-05 23:17:37.475 +05:30 [INF] Executed page /Account/Login in 131.3905ms
+2024-09-05 23:17:37.523 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-05 23:17:37.537 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/Identity/lib/jquery-validation/dist/jquery.validate.js - null null
+2024-09-05 23:17:37.537 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js - null null
+2024-09-05 23:17:37.539 +05:30 [INF] Executed endpoint '/Account/Login'
+2024-09-05 23:17:37.546 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_vs/browserLink - null null
+2024-09-05 23:17:37.557 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/Identity/Account/Login - 200 null text/html; charset=utf-8 268.8808ms
+2024-09-05 23:17:37.565 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 41.6083ms
+2024-09-05 23:17:37.604 +05:30 [INF] Sending file. Request path: '/Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js'. Physical path: 'C:\Users\Admin\.nuget\packages\microsoft.aspnetcore.identity.ui\8.0.8\staticwebassets\V5\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js'
+2024-09-05 23:17:37.609 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js - 200 19385 text/javascript 72.3353ms
+2024-09-05 23:17:37.629 +05:30 [INF] Sending file. Request path: '/Identity/lib/jquery-validation/dist/jquery.validate.js'. Physical path: 'C:\Users\Admin\.nuget\packages\microsoft.aspnetcore.identity.ui\8.0.8\staticwebassets\V5\lib\jquery-validation\dist\jquery.validate.js'
+2024-09-05 23:17:37.635 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/Identity/lib/jquery-validation/dist/jquery.validate.js - 200 51171 text/javascript 98.8499ms
+2024-09-05 23:17:37.646 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_vs/browserLink - 200 null text/javascript; charset=UTF-8 100.6679ms
+2024-09-05 23:17:46.642 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/ - null null
+2024-09-05 23:17:46.656 +05:30 [INF] Executing endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:17:46.658 +05:30 [INF] Route matched with {area = "Customer", action = "Index", controller = "Home", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.Nullable`1[System.Int32], Boolean) on controller SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController (SpeedVechile.WepApp).
+2024-09-05 23:17:46.675 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[BrandLogo], [b].[CreatedBy], [b].[CreatedOn], [b].[EstablishedYear], [b].[ModifiedBy], [b].[ModifiedOn], [b].[Name]
+FROM [Brand] AS [b]
+2024-09-05 23:17:46.683 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[CreatedBy], [v].[CreatedOn], [v].[ModifiedBy], [v].[ModifiedOn], [v].[Name]
+FROM [VehicleType] AS [v]
+2024-09-05 23:17:46.690 +05:30 [INF] Executing ViewResult, running view Index.
+2024-09-05 23:17:46.740 +05:30 [INF] Executed ViewResult - view Index executed in 50.5659ms.
+2024-09-05 23:17:46.809 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-05 23:17:46.818 +05:30 [INF] Executed action SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp) in 155.078ms
+2024-09-05 23:17:46.828 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 19.0543ms
+2024-09-05 23:17:46.829 +05:30 [INF] Executed endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:17:46.832 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/ - 200 null text/html; charset=utf-8 190.5929ms
+2024-09-05 23:17:59.247 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/Customer/Home/Details/1322afb0-7a5a-490b-3146-08dccc32e66e?page=1 - null null
+2024-09-05 23:17:59.276 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-09-05 23:17:59.287 +05:30 [INF] AuthenticationScheme: Identity.Application was challenged.
+2024-09-05 23:17:59.289 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/Customer/Home/Details/1322afb0-7a5a-490b-3146-08dccc32e66e?page=1 - 302 0 null 41.6851ms
+2024-09-05 23:17:59.298 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/Identity/Account/Login?ReturnUrl=%2FCustomer%2FHome%2FDetails%2F1322afb0-7a5a-490b-3146-08dccc32e66e%3Fpage%3D1 - null null
+2024-09-05 23:17:59.312 +05:30 [INF] Executing endpoint '/Account/Login'
+2024-09-05 23:17:59.315 +05:30 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-09-05 23:17:59.337 +05:30 [INF] Executing handler method SpeedVechile.WepApp.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2024-09-05 23:17:59.340 +05:30 [INF] AuthenticationScheme: Identity.External signed out.
+2024-09-05 23:17:59.341 +05:30 [INF] Executed handler method OnGetAsync, returned result .
+2024-09-05 23:17:59.344 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-09-05 23:17:59.346 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-09-05 23:17:59.355 +05:30 [INF] Executed page /Account/Login in 31.1399ms
+2024-09-05 23:17:59.361 +05:30 [INF] Executed endpoint '/Account/Login'
+2024-09-05 23:17:59.410 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_vs/browserLink - null null
+2024-09-05 23:17:59.411 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-05 23:17:59.416 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/Identity/Account/Login?ReturnUrl=%2FCustomer%2FHome%2FDetails%2F1322afb0-7a5a-490b-3146-08dccc32e66e%3Fpage%3D1 - 200 null text/html; charset=utf-8 117.8825ms
+2024-09-05 23:17:59.437 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 26.3769ms
+2024-09-05 23:17:59.465 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_vs/browserLink - 200 null text/javascript; charset=UTF-8 54.5448ms
+2024-09-05 23:18:29.903 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7171/Identity/Account/Login?ReturnUrl=%2FCustomer%2FHome%2FDetails%2F1322afb0-7a5a-490b-3146-08dccc32e66e%3Fpage%3D1 - application/x-www-form-urlencoded 268
+2024-09-05 23:18:29.917 +05:30 [INF] Executing endpoint '/Account/Login'
+2024-09-05 23:18:29.919 +05:30 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-09-05 23:18:29.950 +05:30 [INF] Executing handler method SpeedVechile.WepApp.Areas.Identity.Pages.Account.LoginModel.OnPostAsync - ModelState is "Valid"
+2024-09-05 23:18:29.984 +05:30 [INF] Executed DbCommand (11ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-09-05 23:18:30.310 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2024-09-05 23:18:30.357 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-09-05 23:18:30.366 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2024-09-05 23:18:30.382 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2024-09-05 23:18:30.394 +05:30 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-09-05 23:18:30.398 +05:30 [INF] User logged in.
+2024-09-05 23:18:30.403 +05:30 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult.
+2024-09-05 23:18:30.410 +05:30 [INF] Executing LocalRedirectResult, redirecting to /Customer/Home/Details/1322afb0-7a5a-490b-3146-08dccc32e66e?page=1.
+2024-09-05 23:18:30.412 +05:30 [INF] Executed page /Account/Login in 491.6932ms
+2024-09-05 23:18:30.414 +05:30 [INF] Executed endpoint '/Account/Login'
+2024-09-05 23:18:30.421 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7171/Identity/Account/Login?ReturnUrl=%2FCustomer%2FHome%2FDetails%2F1322afb0-7a5a-490b-3146-08dccc32e66e%3Fpage%3D1 - 302 0 null 518.2839ms
+2024-09-05 23:18:30.423 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/Customer/Home/Details/1322afb0-7a5a-490b-3146-08dccc32e66e?page=1 - null null
+2024-09-05 23:18:30.445 +05:30 [INF] Executing endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Details (SpeedVechile.WepApp)'
+2024-09-05 23:18:30.455 +05:30 [INF] Route matched with {area = "Customer", action = "Details", controller = "Home", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Details(System.Guid, System.Nullable`1[System.Int32]) on controller SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController (SpeedVechile.WepApp).
+2024-09-05 23:18:30.582 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[BrandId], [p].[CreatedBy], [p].[CreatedOn], [p].[Engine], [p].[EngineAndFuelType], [p].[Mileage], [p].[ModifiedBy], [p].[ModifiedOn], [p].[Name], [p].[PriceFrom], [p].[PriceTo], [p].[Range], [p].[Ratings], [p].[SeatingCapacity], [p].[TopSpeed], [p].[Transmission], [p].[VehicleImage], [p].[VehicleTypeId], [b].[Id], [b].[BrandLogo], [b].[CreatedBy], [b].[CreatedOn], [b].[EstablishedYear], [b].[ModifiedBy], [b].[ModifiedOn], [b].[Name], [v].[Id], [v].[CreatedBy], [v].[CreatedOn], [v].[ModifiedBy], [v].[ModifiedOn], [v].[Name]
+FROM [Post] AS [p]
+INNER JOIN [Brand] AS [b] ON [p].[BrandId] = [b].[Id]
+INNER JOIN [VehicleType] AS [v] ON [p].[VehicleTypeId] = [v].[Id]
+WHERE [p].[Id] = @__id_0
+2024-09-05 23:18:30.744 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[@__brandId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[CreatedBy], [p].[CreatedOn], [p].[Engine], [p].[EngineAndFuelType], [p].[Mileage], [p].[ModifiedBy], [p].[ModifiedOn], [p].[Name], [p].[PriceFrom], [p].[PriceTo], [p].[Range], [p].[Ratings], [p].[SeatingCapacity], [p].[TopSpeed], [p].[Transmission], [p].[VehicleImage], [p].[VehicleTypeId], [b].[Id], [b].[BrandLogo], [b].[CreatedBy], [b].[CreatedOn], [b].[EstablishedYear], [b].[ModifiedBy], [b].[ModifiedOn], [b].[Name], [v].[Id], [v].[CreatedBy], [v].[CreatedOn], [v].[ModifiedBy], [v].[ModifiedOn], [v].[Name]
+FROM [Post] AS [p]
+INNER JOIN [Brand] AS [b] ON [p].[BrandId] = [b].[Id]
+INNER JOIN [VehicleType] AS [v] ON [p].[VehicleTypeId] = [v].[Id]
+WHERE [p].[BrandId] = @__brandId_0
+ORDER BY [p].[ModifiedOn] DESC
+2024-09-05 23:18:30.775 +05:30 [INF] Executing ViewResult, running view Details.
+2024-09-05 23:18:30.798 +05:30 [INF] Executed ViewResult - view Details executed in 26.0439ms.
+2024-09-05 23:18:30.803 +05:30 [INF] Executed action SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Details (SpeedVechile.WepApp) in 343.5916ms
+2024-09-05 23:18:30.811 +05:30 [INF] Executed endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Details (SpeedVechile.WepApp)'
+2024-09-05 23:18:30.814 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/Customer/Home/Details/1322afb0-7a5a-490b-3146-08dccc32e66e?page=1 - 200 null text/html; charset=utf-8 391.1415ms
+2024-09-05 23:18:30.837 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-05 23:18:30.847 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_vs/browserLink - null null
+2024-09-05 23:18:30.851 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 14.5875ms
+2024-09-05 23:18:30.921 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_vs/browserLink - 200 null text/javascript; charset=UTF-8 75.3347ms
+2024-09-05 23:18:35.453 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/Customer/Home/GoBack?page=1 - null null
+2024-09-05 23:18:35.471 +05:30 [INF] Executing endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.GoBack (SpeedVechile.WepApp)'
+2024-09-05 23:18:35.477 +05:30 [INF] Route matched with {area = "Customer", action = "GoBack", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GoBack(System.Nullable`1[System.Int32]) on controller SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController (SpeedVechile.WepApp).
+2024-09-05 23:18:35.486 +05:30 [INF] Executing RedirectResult, redirecting to /?page=1.
+2024-09-05 23:18:35.488 +05:30 [INF] Executed action SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.GoBack (SpeedVechile.WepApp) in 6.3878ms
+2024-09-05 23:18:35.493 +05:30 [INF] Executed endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.GoBack (SpeedVechile.WepApp)'
+2024-09-05 23:18:35.495 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/Customer/Home/GoBack?page=1 - 302 0 null 41.8756ms
+2024-09-05 23:18:35.501 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/?page=1 - null null
+2024-09-05 23:18:35.513 +05:30 [INF] Executing endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:18:35.517 +05:30 [INF] Route matched with {area = "Customer", action = "Index", controller = "Home", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.Nullable`1[System.Int32], Boolean) on controller SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController (SpeedVechile.WepApp).
+2024-09-05 23:18:35.525 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[BrandLogo], [b].[CreatedBy], [b].[CreatedOn], [b].[EstablishedYear], [b].[ModifiedBy], [b].[ModifiedOn], [b].[Name]
+FROM [Brand] AS [b]
+2024-09-05 23:18:35.538 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[CreatedBy], [v].[CreatedOn], [v].[ModifiedBy], [v].[ModifiedOn], [v].[Name]
+FROM [VehicleType] AS [v]
+2024-09-05 23:18:35.546 +05:30 [INF] Executing ViewResult, running view Index.
+2024-09-05 23:18:35.566 +05:30 [INF] Executed ViewResult - view Index executed in 19.5395ms.
+2024-09-05 23:18:35.568 +05:30 [INF] Executed action SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp) in 47.6046ms
+2024-09-05 23:18:35.571 +05:30 [INF] Executed endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:18:35.580 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/?page=1 - 200 null text/html; charset=utf-8 78.7756ms
+2024-09-05 23:18:35.603 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-05 23:18:35.604 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_vs/browserLink - null null
+2024-09-05 23:18:35.616 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 12.6159ms
+2024-09-05 23:18:35.672 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_vs/browserLink - 200 null text/javascript; charset=UTF-8 68.3074ms
+2024-09-05 23:18:56.701 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7171/Identity/Account/Logout?returnUrl=%2F - application/x-www-form-urlencoded 225
+2024-09-05 23:18:56.713 +05:30 [INF] Executing endpoint '/Account/Logout'
+2024-09-05 23:18:56.722 +05:30 [INF] Route matched with {page = "/Account/Logout", area = "Identity", action = "", controller = ""}. Executing page /Account/Logout
+2024-09-05 23:18:56.726 +05:30 [INF] Executing handler method SpeedVechile.WepApp.Areas.Identity.Pages.Account.LogoutModel.OnPost - ModelState is "Valid"
+2024-09-05 23:18:56.733 +05:30 [INF] AuthenticationScheme: Identity.Application signed out.
+2024-09-05 23:18:56.735 +05:30 [INF] AuthenticationScheme: Identity.External signed out.
+2024-09-05 23:18:56.737 +05:30 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2024-09-05 23:18:56.738 +05:30 [INF] User logged out.
+2024-09-05 23:18:56.740 +05:30 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult.
+2024-09-05 23:18:56.742 +05:30 [INF] Executing LocalRedirectResult, redirecting to /.
+2024-09-05 23:18:56.743 +05:30 [INF] Executed page /Account/Logout in 19.8421ms
+2024-09-05 23:18:56.746 +05:30 [INF] Executed endpoint '/Account/Logout'
+2024-09-05 23:18:56.748 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7171/Identity/Account/Logout?returnUrl=%2F - 302 0 null 46.9129ms
+2024-09-05 23:18:56.753 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/ - null null
+2024-09-05 23:18:56.761 +05:30 [INF] Executing endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:18:56.763 +05:30 [INF] Route matched with {area = "Customer", action = "Index", controller = "Home", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.Nullable`1[System.Int32], Boolean) on controller SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController (SpeedVechile.WepApp).
+2024-09-05 23:18:56.771 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[BrandLogo], [b].[CreatedBy], [b].[CreatedOn], [b].[EstablishedYear], [b].[ModifiedBy], [b].[ModifiedOn], [b].[Name]
+FROM [Brand] AS [b]
+2024-09-05 23:18:56.782 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[CreatedBy], [v].[CreatedOn], [v].[ModifiedBy], [v].[ModifiedOn], [v].[Name]
+FROM [VehicleType] AS [v]
+2024-09-05 23:18:56.786 +05:30 [INF] Executing ViewResult, running view Index.
+2024-09-05 23:18:56.793 +05:30 [INF] Executed ViewResult - view Index executed in 7.0378ms.
+2024-09-05 23:18:56.796 +05:30 [INF] Executed action SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp) in 28.7276ms
+2024-09-05 23:18:56.800 +05:30 [INF] Executed endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:18:56.825 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-05 23:18:56.826 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_vs/browserLink - null null
+2024-09-05 23:18:56.830 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/ - 200 null text/html; charset=utf-8 76.6171ms
+2024-09-05 23:18:56.834 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 7.6835ms
+2024-09-05 23:18:56.880 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_vs/browserLink - 200 null text/javascript; charset=UTF-8 53.8748ms
+2024-09-05 23:18:59.942 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/Identity/Account/Login - null null
+2024-09-05 23:18:59.960 +05:30 [INF] Executing endpoint '/Account/Login'
+2024-09-05 23:18:59.962 +05:30 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-09-05 23:18:59.972 +05:30 [INF] Executing handler method SpeedVechile.WepApp.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2024-09-05 23:18:59.974 +05:30 [INF] AuthenticationScheme: Identity.External signed out.
+2024-09-05 23:18:59.976 +05:30 [INF] Executed handler method OnGetAsync, returned result .
+2024-09-05 23:18:59.978 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-09-05 23:18:59.981 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-09-05 23:18:59.988 +05:30 [INF] Executed page /Account/Login in 17.8186ms
+2024-09-05 23:18:59.991 +05:30 [INF] Executed endpoint '/Account/Login'
+2024-09-05 23:18:59.993 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/Identity/Account/Login - 200 null text/html; charset=utf-8 51.5257ms
+2024-09-05 23:19:00.055 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-05 23:19:00.056 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_vs/browserLink - null null
+2024-09-05 23:19:00.082 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 26.6921ms
+2024-09-05 23:19:00.116 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_vs/browserLink - 200 null text/javascript; charset=UTF-8 59.6284ms
+2024-09-05 23:19:13.798 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7171/Identity/Account/Login - application/x-www-form-urlencoded 269
+2024-09-05 23:19:13.807 +05:30 [INF] Executing endpoint '/Account/Login'
+2024-09-05 23:19:13.808 +05:30 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-09-05 23:19:13.812 +05:30 [INF] Executing handler method SpeedVechile.WepApp.Areas.Identity.Pages.Account.LoginModel.OnPostAsync - ModelState is "Valid"
+2024-09-05 23:19:13.823 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-09-05 23:19:13.973 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2024-09-05 23:19:13.984 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-09-05 23:19:13.996 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2024-09-05 23:19:14.008 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2024-09-05 23:19:14.021 +05:30 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-09-05 23:19:14.023 +05:30 [INF] User logged in.
+2024-09-05 23:19:14.024 +05:30 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult.
+2024-09-05 23:19:14.027 +05:30 [INF] Executing LocalRedirectResult, redirecting to /.
+2024-09-05 23:19:14.029 +05:30 [INF] Executed page /Account/Login in 218.3359ms
+2024-09-05 23:19:14.030 +05:30 [INF] Executed endpoint '/Account/Login'
+2024-09-05 23:19:14.032 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7171/Identity/Account/Login - 302 0 null 234.6805ms
+2024-09-05 23:19:14.038 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/ - null null
+2024-09-05 23:19:14.046 +05:30 [INF] Executing endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:19:14.050 +05:30 [INF] Route matched with {area = "Customer", action = "Index", controller = "Home", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.Nullable`1[System.Int32], Boolean) on controller SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController (SpeedVechile.WepApp).
+2024-09-05 23:19:14.055 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[BrandLogo], [b].[CreatedBy], [b].[CreatedOn], [b].[EstablishedYear], [b].[ModifiedBy], [b].[ModifiedOn], [b].[Name]
+FROM [Brand] AS [b]
+2024-09-05 23:19:14.061 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[CreatedBy], [v].[CreatedOn], [v].[ModifiedBy], [v].[ModifiedOn], [v].[Name]
+FROM [VehicleType] AS [v]
+2024-09-05 23:19:14.067 +05:30 [INF] Executing ViewResult, running view Index.
+2024-09-05 23:19:14.078 +05:30 [INF] Executed ViewResult - view Index executed in 10.4469ms.
+2024-09-05 23:19:14.082 +05:30 [INF] Executed action SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp) in 29.25ms
+2024-09-05 23:19:14.085 +05:30 [INF] Executed endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:19:14.088 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/ - 200 null text/html; charset=utf-8 50.0167ms
+2024-09-05 23:19:14.110 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-05 23:19:14.112 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_vs/browserLink - null null
+2024-09-05 23:19:14.151 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 41.2583ms
+2024-09-05 23:19:14.185 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_vs/browserLink - 200 null text/javascript; charset=UTF-8 73.3421ms
+2024-09-05 23:19:27.227 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/Admin/Brand - null null
+2024-09-05 23:19:27.243 +05:30 [INF] Executing endpoint 'SpeedVechile.WepApp.Areas.Admin.Controllers.BrandController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:19:27.252 +05:30 [INF] Route matched with {area = "Admin", action = "Index", controller = "Brand", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller SpeedVechile.WepApp.Areas.Admin.Controllers.BrandController (SpeedVechile.WepApp).
+2024-09-05 23:19:27.278 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[BrandLogo], [b].[CreatedBy], [b].[CreatedOn], [b].[EstablishedYear], [b].[ModifiedBy], [b].[ModifiedOn], [b].[Name]
+FROM [Brand] AS [b]
+2024-09-05 23:19:27.283 +05:30 [INF] Brand List Fetched From Database Successfully
+2024-09-05 23:19:27.287 +05:30 [INF] Executing ViewResult, running view Index.
+2024-09-05 23:19:27.313 +05:30 [INF] Executed ViewResult - view Index executed in 27.7349ms.
+2024-09-05 23:19:27.358 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-05 23:19:27.359 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_vs/browserLink - null null
+2024-09-05 23:19:27.361 +05:30 [INF] Executed action SpeedVechile.WepApp.Areas.Admin.Controllers.BrandController.Index (SpeedVechile.WepApp) in 105.4151ms
+2024-09-05 23:19:27.366 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 8.3339ms
+2024-09-05 23:19:27.375 +05:30 [INF] Executed endpoint 'SpeedVechile.WepApp.Areas.Admin.Controllers.BrandController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:19:27.398 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_vs/browserLink - 200 null text/javascript; charset=UTF-8 39.3314ms
+2024-09-05 23:19:27.404 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/Admin/Brand - 200 null text/html; charset=utf-8 176.9487ms
+2024-09-05 23:19:29.711 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/Admin/Brand/Create - null null
+2024-09-05 23:19:29.734 +05:30 [INF] Executing endpoint 'SpeedVechile.WepApp.Areas.Admin.Controllers.BrandController.Create (SpeedVechile.WepApp)'
+2024-09-05 23:19:29.738 +05:30 [INF] Route matched with {area = "Admin", action = "Create", controller = "Brand", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller SpeedVechile.WepApp.Areas.Admin.Controllers.BrandController (SpeedVechile.WepApp).
+2024-09-05 23:19:29.744 +05:30 [INF] Executing ViewResult, running view Create.
+2024-09-05 23:19:29.804 +05:30 [INF] Executed ViewResult - view Create executed in 61.1872ms.
+2024-09-05 23:19:29.811 +05:30 [INF] Executed action SpeedVechile.WepApp.Areas.Admin.Controllers.BrandController.Create (SpeedVechile.WepApp) in 69.5779ms
+2024-09-05 23:19:29.816 +05:30 [INF] Executed endpoint 'SpeedVechile.WepApp.Areas.Admin.Controllers.BrandController.Create (SpeedVechile.WepApp)'
+2024-09-05 23:19:29.819 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/Admin/Brand/Create - 200 null text/html; charset=utf-8 108.3586ms
+2024-09-05 23:19:29.851 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/lib/jquery-validation/dist/jquery.validate.min.js - null null
+2024-09-05 23:19:29.851 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-05 23:19:29.853 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - null null
+2024-09-05 23:19:29.858 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 6.2466ms
+2024-09-05 23:19:29.861 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_vs/browserLink - null null
+2024-09-05 23:19:29.869 +05:30 [INF] Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.min.js'. Physical path: 'C:\Users\Admin\source\repos\GoldenSpeedVechile\SpeedVechile.WepApp\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js'
+2024-09-05 23:19:29.872 +05:30 [INF] Sending file. Request path: '/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js'. Physical path: 'C:\Users\Admin\source\repos\GoldenSpeedVechile\SpeedVechile.WepApp\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js'
+2024-09-05 23:19:29.885 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - 200 5824 text/javascript 31.883ms
+2024-09-05 23:19:29.888 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/lib/jquery-validation/dist/jquery.validate.min.js - 200 24601 text/javascript 36.4507ms
+2024-09-05 23:19:29.902 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_vs/browserLink - 200 null text/javascript; charset=UTF-8 47.3704ms
+2024-09-05 23:19:34.280 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/Admin/Brand - null null
+2024-09-05 23:19:34.293 +05:30 [INF] Executing endpoint 'SpeedVechile.WepApp.Areas.Admin.Controllers.BrandController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:19:34.296 +05:30 [INF] Route matched with {area = "Admin", action = "Index", controller = "Brand", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller SpeedVechile.WepApp.Areas.Admin.Controllers.BrandController (SpeedVechile.WepApp).
+2024-09-05 23:19:34.305 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[BrandLogo], [b].[CreatedBy], [b].[CreatedOn], [b].[EstablishedYear], [b].[ModifiedBy], [b].[ModifiedOn], [b].[Name]
+FROM [Brand] AS [b]
+2024-09-05 23:19:34.309 +05:30 [INF] Brand List Fetched From Database Successfully
+2024-09-05 23:19:34.311 +05:30 [INF] Executing ViewResult, running view Index.
+2024-09-05 23:19:34.321 +05:30 [INF] Executed ViewResult - view Index executed in 10.6068ms.
+2024-09-05 23:19:34.325 +05:30 [INF] Executed action SpeedVechile.WepApp.Areas.Admin.Controllers.BrandController.Index (SpeedVechile.WepApp) in 24.9043ms
+2024-09-05 23:19:34.398 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-05 23:19:34.398 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_vs/browserLink - null null
+2024-09-05 23:19:34.400 +05:30 [INF] Executed endpoint 'SpeedVechile.WepApp.Areas.Admin.Controllers.BrandController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:19:34.404 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 5.501ms
+2024-09-05 23:19:34.443 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/Admin/Brand - 200 null text/html; charset=utf-8 163.311ms
+2024-09-05 23:19:34.470 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_vs/browserLink - 200 null text/javascript; charset=UTF-8 71.7825ms
+2024-09-05 23:19:38.264 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/Admin/VehicleType - null null
+2024-09-05 23:19:38.278 +05:30 [INF] Executing endpoint 'SpeedVechile.WepApp.Areas.Admin.Controllers.VehicleTypeController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:19:38.288 +05:30 [INF] Route matched with {area = "Admin", action = "Index", controller = "VehicleType", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller SpeedVechile.WepApp.Areas.Admin.Controllers.VehicleTypeController (SpeedVechile.WepApp).
+2024-09-05 23:19:38.305 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[CreatedBy], [v].[CreatedOn], [v].[ModifiedBy], [v].[ModifiedOn], [v].[Name]
+FROM [VehicleType] AS [v]
+2024-09-05 23:19:38.312 +05:30 [INF] Executing ViewResult, running view Index.
+2024-09-05 23:19:38.333 +05:30 [INF] Executed ViewResult - view Index executed in 22.2657ms.
+2024-09-05 23:19:38.338 +05:30 [INF] Executed action SpeedVechile.WepApp.Areas.Admin.Controllers.VehicleTypeController.Index (SpeedVechile.WepApp) in 46.0129ms
+2024-09-05 23:19:38.391 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-05 23:19:38.391 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_vs/browserLink - null null
+2024-09-05 23:19:38.393 +05:30 [INF] Executed endpoint 'SpeedVechile.WepApp.Areas.Admin.Controllers.VehicleTypeController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:19:38.397 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 6.5427ms
+2024-09-05 23:19:38.403 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/Admin/VehicleType - 200 null text/html; charset=utf-8 138.674ms
+2024-09-05 23:19:38.421 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_vs/browserLink - 200 null text/javascript; charset=UTF-8 30.4535ms
+2024-09-05 23:19:41.308 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/Admin/Post - null null
+2024-09-05 23:19:41.322 +05:30 [INF] Executing endpoint 'SpeedVechile.WepApp.Areas.Admin.Controllers.PostController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:19:41.330 +05:30 [INF] Route matched with {area = "Admin", action = "Index", controller = "Post", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller SpeedVechile.WepApp.Areas.Admin.Controllers.PostController (SpeedVechile.WepApp).
+2024-09-05 23:19:41.360 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[CreatedBy], [p].[CreatedOn], [p].[Engine], [p].[EngineAndFuelType], [p].[Mileage], [p].[ModifiedBy], [p].[ModifiedOn], [p].[Name], [p].[PriceFrom], [p].[PriceTo], [p].[Range], [p].[Ratings], [p].[SeatingCapacity], [p].[TopSpeed], [p].[Transmission], [p].[VehicleImage], [p].[VehicleTypeId], [b].[Id], [b].[BrandLogo], [b].[CreatedBy], [b].[CreatedOn], [b].[EstablishedYear], [b].[ModifiedBy], [b].[ModifiedOn], [b].[Name], [v].[Id], [v].[CreatedBy], [v].[CreatedOn], [v].[ModifiedBy], [v].[ModifiedOn], [v].[Name]
+FROM [Post] AS [p]
+INNER JOIN [Brand] AS [b] ON [p].[BrandId] = [b].[Id]
+INNER JOIN [VehicleType] AS [v] ON [p].[VehicleTypeId] = [v].[Id]
+2024-09-05 23:19:41.370 +05:30 [INF] Executing ViewResult, running view Index.
+2024-09-05 23:19:41.388 +05:30 [INF] Executed ViewResult - view Index executed in 19.0737ms.
+2024-09-05 23:19:41.392 +05:30 [INF] Executed action SpeedVechile.WepApp.Areas.Admin.Controllers.PostController.Index (SpeedVechile.WepApp) in 57.2357ms
+2024-09-05 23:19:41.396 +05:30 [INF] Executed endpoint 'SpeedVechile.WepApp.Areas.Admin.Controllers.PostController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:19:41.409 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/Admin/Post - 200 null text/html; charset=utf-8 100.3762ms
+2024-09-05 23:19:41.419 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-05 23:19:41.420 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_vs/browserLink - null null
+2024-09-05 23:19:41.427 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 8.4037ms
+2024-09-05 23:19:41.449 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_vs/browserLink - 200 null text/javascript; charset=UTF-8 28.925ms
+2024-09-05 23:19:43.343 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/Admin/Post/Create - null null
+2024-09-05 23:19:43.362 +05:30 [INF] Executing endpoint 'SpeedVechile.WepApp.Areas.Admin.Controllers.PostController.Create (SpeedVechile.WepApp)'
+2024-09-05 23:19:43.368 +05:30 [INF] Route matched with {area = "Admin", action = "Create", controller = "Post", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller SpeedVechile.WepApp.Areas.Admin.Controllers.PostController (SpeedVechile.WepApp).
+2024-09-05 23:19:43.377 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[BrandLogo], [b].[CreatedBy], [b].[CreatedOn], [b].[EstablishedYear], [b].[ModifiedBy], [b].[ModifiedOn], [b].[Name]
+FROM [Brand] AS [b]
+2024-09-05 23:19:43.386 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[CreatedBy], [v].[CreatedOn], [v].[ModifiedBy], [v].[ModifiedOn], [v].[Name]
+FROM [VehicleType] AS [v]
+2024-09-05 23:19:43.395 +05:30 [INF] Executing ViewResult, running view Create.
+2024-09-05 23:19:43.552 +05:30 [INF] Executed ViewResult - view Create executed in 157.7097ms.
+2024-09-05 23:19:43.618 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-05 23:19:43.619 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_vs/browserLink - null null
+2024-09-05 23:19:43.622 +05:30 [INF] Executed action SpeedVechile.WepApp.Areas.Admin.Controllers.PostController.Create (SpeedVechile.WepApp) in 250.6217ms
+2024-09-05 23:19:43.626 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 7.6328ms
+2024-09-05 23:19:43.650 +05:30 [INF] Executed endpoint 'SpeedVechile.WepApp.Areas.Admin.Controllers.PostController.Create (SpeedVechile.WepApp)'
+2024-09-05 23:19:43.665 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/Admin/Post/Create - 200 null text/html; charset=utf-8 322.4055ms
+2024-09-05 23:19:43.670 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_vs/browserLink - 200 null text/javascript; charset=UTF-8 50.6062ms
+2024-09-05 23:20:09.286 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/Admin/Post - null null
+2024-09-05 23:20:09.295 +05:30 [INF] Executing endpoint 'SpeedVechile.WepApp.Areas.Admin.Controllers.PostController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:20:09.299 +05:30 [INF] Route matched with {area = "Admin", action = "Index", controller = "Post", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller SpeedVechile.WepApp.Areas.Admin.Controllers.PostController (SpeedVechile.WepApp).
+2024-09-05 23:20:09.326 +05:30 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[CreatedBy], [p].[CreatedOn], [p].[Engine], [p].[EngineAndFuelType], [p].[Mileage], [p].[ModifiedBy], [p].[ModifiedOn], [p].[Name], [p].[PriceFrom], [p].[PriceTo], [p].[Range], [p].[Ratings], [p].[SeatingCapacity], [p].[TopSpeed], [p].[Transmission], [p].[VehicleImage], [p].[VehicleTypeId], [b].[Id], [b].[BrandLogo], [b].[CreatedBy], [b].[CreatedOn], [b].[EstablishedYear], [b].[ModifiedBy], [b].[ModifiedOn], [b].[Name], [v].[Id], [v].[CreatedBy], [v].[CreatedOn], [v].[ModifiedBy], [v].[ModifiedOn], [v].[Name]
+FROM [Post] AS [p]
+INNER JOIN [Brand] AS [b] ON [p].[BrandId] = [b].[Id]
+INNER JOIN [VehicleType] AS [v] ON [p].[VehicleTypeId] = [v].[Id]
+2024-09-05 23:20:09.340 +05:30 [INF] Executing ViewResult, running view Index.
+2024-09-05 23:20:09.347 +05:30 [INF] Executed ViewResult - view Index executed in 7.57ms.
+2024-09-05 23:20:09.349 +05:30 [INF] Executed action SpeedVechile.WepApp.Areas.Admin.Controllers.PostController.Index (SpeedVechile.WepApp) in 44.7341ms
+2024-09-05 23:20:09.352 +05:30 [INF] Executed endpoint 'SpeedVechile.WepApp.Areas.Admin.Controllers.PostController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:20:09.355 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/Admin/Post - 200 null text/html; charset=utf-8 69.068ms
+2024-09-05 23:20:09.381 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-05 23:20:09.413 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 32.0604ms
+2024-09-05 23:20:10.428 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/Admin/VehicleType - null null
+2024-09-05 23:20:10.437 +05:30 [INF] Executing endpoint 'SpeedVechile.WepApp.Areas.Admin.Controllers.VehicleTypeController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:20:10.439 +05:30 [INF] Route matched with {area = "Admin", action = "Index", controller = "VehicleType", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller SpeedVechile.WepApp.Areas.Admin.Controllers.VehicleTypeController (SpeedVechile.WepApp).
+2024-09-05 23:20:10.448 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[CreatedBy], [v].[CreatedOn], [v].[ModifiedBy], [v].[ModifiedOn], [v].[Name]
+FROM [VehicleType] AS [v]
+2024-09-05 23:20:10.453 +05:30 [INF] Executing ViewResult, running view Index.
+2024-09-05 23:20:10.461 +05:30 [INF] Executed ViewResult - view Index executed in 7.7014ms.
+2024-09-05 23:20:10.463 +05:30 [INF] Executed action SpeedVechile.WepApp.Areas.Admin.Controllers.VehicleTypeController.Index (SpeedVechile.WepApp) in 19.8027ms
+2024-09-05 23:20:10.474 +05:30 [INF] Executed endpoint 'SpeedVechile.WepApp.Areas.Admin.Controllers.VehicleTypeController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:20:10.480 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/Admin/VehicleType - 200 null text/html; charset=utf-8 51.8428ms
+2024-09-05 23:20:10.495 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-05 23:20:10.501 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 6.0774ms
+2024-09-05 23:20:11.376 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/Admin/Brand - null null
+2024-09-05 23:20:11.384 +05:30 [INF] Executing endpoint 'SpeedVechile.WepApp.Areas.Admin.Controllers.BrandController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:20:11.387 +05:30 [INF] Route matched with {area = "Admin", action = "Index", controller = "Brand", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller SpeedVechile.WepApp.Areas.Admin.Controllers.BrandController (SpeedVechile.WepApp).
+2024-09-05 23:20:11.396 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[BrandLogo], [b].[CreatedBy], [b].[CreatedOn], [b].[EstablishedYear], [b].[ModifiedBy], [b].[ModifiedOn], [b].[Name]
+FROM [Brand] AS [b]
+2024-09-05 23:20:11.402 +05:30 [INF] Brand List Fetched From Database Successfully
+2024-09-05 23:20:11.404 +05:30 [INF] Executing ViewResult, running view Index.
+2024-09-05 23:20:11.411 +05:30 [INF] Executed ViewResult - view Index executed in 7.6311ms.
+2024-09-05 23:20:11.414 +05:30 [INF] Executed action SpeedVechile.WepApp.Areas.Admin.Controllers.BrandController.Index (SpeedVechile.WepApp) in 22.5383ms
+2024-09-05 23:20:11.418 +05:30 [INF] Executed endpoint 'SpeedVechile.WepApp.Areas.Admin.Controllers.BrandController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:20:11.445 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-05 23:20:11.451 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/Admin/Brand - 200 null text/html; charset=utf-8 74.4495ms
+2024-09-05 23:20:11.459 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 13.5363ms
+2024-09-05 23:20:12.216 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/Admin/Brand/Create - null null
+2024-09-05 23:20:12.232 +05:30 [INF] Executing endpoint 'SpeedVechile.WepApp.Areas.Admin.Controllers.BrandController.Create (SpeedVechile.WepApp)'
+2024-09-05 23:20:12.240 +05:30 [INF] Route matched with {area = "Admin", action = "Create", controller = "Brand", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller SpeedVechile.WepApp.Areas.Admin.Controllers.BrandController (SpeedVechile.WepApp).
+2024-09-05 23:20:12.244 +05:30 [INF] Executing ViewResult, running view Create.
+2024-09-05 23:20:12.257 +05:30 [INF] Executed ViewResult - view Create executed in 13.3581ms.
+2024-09-05 23:20:12.299 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-05 23:20:12.309 +05:30 [INF] Executed action SpeedVechile.WepApp.Areas.Admin.Controllers.BrandController.Create (SpeedVechile.WepApp) in 64.9114ms
+2024-09-05 23:20:12.313 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 14.2373ms
+2024-09-05 23:20:12.315 +05:30 [INF] Executed endpoint 'SpeedVechile.WepApp.Areas.Admin.Controllers.BrandController.Create (SpeedVechile.WepApp)'
+2024-09-05 23:20:12.318 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/Admin/Brand/Create - 200 null text/html; charset=utf-8 102.3184ms
+2024-09-05 23:20:12.648 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/Admin/Brand - null null
+2024-09-05 23:20:12.656 +05:30 [INF] Executing endpoint 'SpeedVechile.WepApp.Areas.Admin.Controllers.BrandController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:20:12.660 +05:30 [INF] Route matched with {area = "Admin", action = "Index", controller = "Brand", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller SpeedVechile.WepApp.Areas.Admin.Controllers.BrandController (SpeedVechile.WepApp).
+2024-09-05 23:20:12.668 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[BrandLogo], [b].[CreatedBy], [b].[CreatedOn], [b].[EstablishedYear], [b].[ModifiedBy], [b].[ModifiedOn], [b].[Name]
+FROM [Brand] AS [b]
+2024-09-05 23:20:12.677 +05:30 [INF] Brand List Fetched From Database Successfully
+2024-09-05 23:20:12.679 +05:30 [INF] Executing ViewResult, running view Index.
+2024-09-05 23:20:12.685 +05:30 [INF] Executed ViewResult - view Index executed in 6.7277ms.
+2024-09-05 23:20:12.715 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-05 23:20:12.718 +05:30 [INF] Executed action SpeedVechile.WepApp.Areas.Admin.Controllers.BrandController.Index (SpeedVechile.WepApp) in 54.5415ms
+2024-09-05 23:20:12.722 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 7.823ms
+2024-09-05 23:20:12.724 +05:30 [INF] Executed endpoint 'SpeedVechile.WepApp.Areas.Admin.Controllers.BrandController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:20:12.726 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/Admin/Brand - 200 null text/html; charset=utf-8 78.1303ms
+2024-09-05 23:20:22.594 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7171/Identity/Account/Logout?returnUrl=%2F - application/x-www-form-urlencoded 225
+2024-09-05 23:20:22.602 +05:30 [INF] Executing endpoint '/Account/Logout'
+2024-09-05 23:20:22.604 +05:30 [INF] Route matched with {page = "/Account/Logout", area = "Identity", action = "", controller = ""}. Executing page /Account/Logout
+2024-09-05 23:20:22.606 +05:30 [INF] Executing handler method SpeedVechile.WepApp.Areas.Identity.Pages.Account.LogoutModel.OnPost - ModelState is "Valid"
+2024-09-05 23:20:22.610 +05:30 [INF] AuthenticationScheme: Identity.Application signed out.
+2024-09-05 23:20:22.611 +05:30 [INF] AuthenticationScheme: Identity.External signed out.
+2024-09-05 23:20:22.613 +05:30 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2024-09-05 23:20:22.614 +05:30 [INF] User logged out.
+2024-09-05 23:20:22.615 +05:30 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult.
+2024-09-05 23:20:22.618 +05:30 [INF] Executing LocalRedirectResult, redirecting to /.
+2024-09-05 23:20:22.619 +05:30 [INF] Executed page /Account/Logout in 13.33ms
+2024-09-05 23:20:22.621 +05:30 [INF] Executed endpoint '/Account/Logout'
+2024-09-05 23:20:22.623 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7171/Identity/Account/Logout?returnUrl=%2F - 302 0 null 28.8782ms
+2024-09-05 23:20:22.633 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/ - null null
+2024-09-05 23:20:22.640 +05:30 [INF] Executing endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:20:22.641 +05:30 [INF] Route matched with {area = "Customer", action = "Index", controller = "Home", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.Nullable`1[System.Int32], Boolean) on controller SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController (SpeedVechile.WepApp).
+2024-09-05 23:20:22.649 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[BrandLogo], [b].[CreatedBy], [b].[CreatedOn], [b].[EstablishedYear], [b].[ModifiedBy], [b].[ModifiedOn], [b].[Name]
+FROM [Brand] AS [b]
+2024-09-05 23:20:22.655 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[CreatedBy], [v].[CreatedOn], [v].[ModifiedBy], [v].[ModifiedOn], [v].[Name]
+FROM [VehicleType] AS [v]
+2024-09-05 23:20:22.660 +05:30 [INF] Executing ViewResult, running view Index.
+2024-09-05 23:20:22.668 +05:30 [INF] Executed ViewResult - view Index executed in 7.6035ms.
+2024-09-05 23:20:22.671 +05:30 [INF] Executed action SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp) in 25.6087ms
+2024-09-05 23:20:22.674 +05:30 [INF] Executed endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:20:22.677 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/ - 200 null text/html; charset=utf-8 44.1489ms
+2024-09-05 23:20:22.709 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-05 23:20:22.709 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_vs/browserLink - null null
+2024-09-05 23:20:22.719 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 9.8454ms
+2024-09-05 23:20:22.804 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_vs/browserLink - 200 null text/javascript; charset=UTF-8 94.9091ms
+2024-09-05 23:20:24.641 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/?page=1&resetFilter=True - null null
+2024-09-05 23:20:24.669 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/?page=1&resetFilter=True - null null
+2024-09-05 23:20:24.674 +05:30 [INF] Executing endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:20:24.680 +05:30 [INF] Executing endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:20:24.681 +05:30 [INF] Route matched with {area = "Customer", action = "Index", controller = "Home", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.Nullable`1[System.Int32], Boolean) on controller SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController (SpeedVechile.WepApp).
+2024-09-05 23:20:24.683 +05:30 [INF] Route matched with {area = "Customer", action = "Index", controller = "Home", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.Nullable`1[System.Int32], Boolean) on controller SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController (SpeedVechile.WepApp).
+2024-09-05 23:20:24.690 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[BrandLogo], [b].[CreatedBy], [b].[CreatedOn], [b].[EstablishedYear], [b].[ModifiedBy], [b].[ModifiedOn], [b].[Name]
+FROM [Brand] AS [b]
+2024-09-05 23:20:24.695 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[CreatedBy], [v].[CreatedOn], [v].[ModifiedBy], [v].[ModifiedOn], [v].[Name]
+FROM [VehicleType] AS [v]
+2024-09-05 23:20:24.697 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[BrandLogo], [b].[CreatedBy], [b].[CreatedOn], [b].[EstablishedYear], [b].[ModifiedBy], [b].[ModifiedOn], [b].[Name]
+FROM [Brand] AS [b]
+2024-09-05 23:20:24.705 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[CreatedBy], [v].[CreatedOn], [v].[ModifiedBy], [v].[ModifiedOn], [v].[Name]
+FROM [VehicleType] AS [v]
+2024-09-05 23:20:24.710 +05:30 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[CreatedBy], [p].[CreatedOn], [p].[Engine], [p].[EngineAndFuelType], [p].[Mileage], [p].[ModifiedBy], [p].[ModifiedOn], [p].[Name], [p].[PriceFrom], [p].[PriceTo], [p].[Range], [p].[Ratings], [p].[SeatingCapacity], [p].[TopSpeed], [p].[Transmission], [p].[VehicleImage], [p].[VehicleTypeId], [b].[Id], [b].[BrandLogo], [b].[CreatedBy], [b].[CreatedOn], [b].[EstablishedYear], [b].[ModifiedBy], [b].[ModifiedOn], [b].[Name], [v].[Id], [v].[CreatedBy], [v].[CreatedOn], [v].[ModifiedBy], [v].[ModifiedOn], [v].[Name]
+FROM [Post] AS [p]
+INNER JOIN [Brand] AS [b] ON [p].[BrandId] = [b].[Id]
+INNER JOIN [VehicleType] AS [v] ON [p].[VehicleTypeId] = [v].[Id]
+2024-09-05 23:20:24.713 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[CreatedBy], [p].[CreatedOn], [p].[Engine], [p].[EngineAndFuelType], [p].[Mileage], [p].[ModifiedBy], [p].[ModifiedOn], [p].[Name], [p].[PriceFrom], [p].[PriceTo], [p].[Range], [p].[Ratings], [p].[SeatingCapacity], [p].[TopSpeed], [p].[Transmission], [p].[VehicleImage], [p].[VehicleTypeId], [b].[Id], [b].[BrandLogo], [b].[CreatedBy], [b].[CreatedOn], [b].[EstablishedYear], [b].[ModifiedBy], [b].[ModifiedOn], [b].[Name], [v].[Id], [v].[CreatedBy], [v].[CreatedOn], [v].[ModifiedBy], [v].[ModifiedOn], [v].[Name]
+FROM [Post] AS [p]
+INNER JOIN [Brand] AS [b] ON [p].[BrandId] = [b].[Id]
+INNER JOIN [VehicleType] AS [v] ON [p].[VehicleTypeId] = [v].[Id]
+2024-09-05 23:20:24.715 +05:30 [INF] Executing ViewResult, running view Index.
+2024-09-05 23:20:24.720 +05:30 [INF] Executing ViewResult, running view Index.
+2024-09-05 23:20:24.731 +05:30 [INF] Executed ViewResult - view Index executed in 15.6865ms.
+2024-09-05 23:20:24.733 +05:30 [INF] Executed ViewResult - view Index executed in 12.8371ms.
+2024-09-05 23:20:24.733 +05:30 [INF] Executed action SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp) in 47.1219ms
+2024-09-05 23:20:24.735 +05:30 [INF] Executed action SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp) in 45.9958ms
+2024-09-05 23:20:24.739 +05:30 [INF] Executed endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:20:24.743 +05:30 [INF] Executed endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:20:24.746 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/?page=1&resetFilter=True - 200 null text/html; charset=utf-8 104.3628ms
+2024-09-05 23:20:24.762 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/?page=1&resetFilter=True - 200 null text/html; charset=utf-8 92.7481ms
+2024-09-05 23:20:24.812 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-05 23:20:24.812 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_vs/browserLink - null null
+2024-09-05 23:20:24.822 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 10.2625ms
+2024-09-05 23:20:24.896 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_vs/browserLink - 200 null text/javascript; charset=UTF-8 83.9675ms
+2024-09-05 23:20:35.805 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/?page=2 - null null
+2024-09-05 23:20:35.823 +05:30 [INF] Executing endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:20:35.825 +05:30 [INF] Route matched with {area = "Customer", action = "Index", controller = "Home", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.Nullable`1[System.Int32], Boolean) on controller SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController (SpeedVechile.WepApp).
+2024-09-05 23:20:35.833 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[BrandLogo], [b].[CreatedBy], [b].[CreatedOn], [b].[EstablishedYear], [b].[ModifiedBy], [b].[ModifiedOn], [b].[Name]
+FROM [Brand] AS [b]
+2024-09-05 23:20:35.842 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[CreatedBy], [v].[CreatedOn], [v].[ModifiedBy], [v].[ModifiedOn], [v].[Name]
+FROM [VehicleType] AS [v]
+2024-09-05 23:20:35.856 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[CreatedBy], [p].[CreatedOn], [p].[Engine], [p].[EngineAndFuelType], [p].[Mileage], [p].[ModifiedBy], [p].[ModifiedOn], [p].[Name], [p].[PriceFrom], [p].[PriceTo], [p].[Range], [p].[Ratings], [p].[SeatingCapacity], [p].[TopSpeed], [p].[Transmission], [p].[VehicleImage], [p].[VehicleTypeId], [b].[Id], [b].[BrandLogo], [b].[CreatedBy], [b].[CreatedOn], [b].[EstablishedYear], [b].[ModifiedBy], [b].[ModifiedOn], [b].[Name], [v].[Id], [v].[CreatedBy], [v].[CreatedOn], [v].[ModifiedBy], [v].[ModifiedOn], [v].[Name]
+FROM [Post] AS [p]
+INNER JOIN [Brand] AS [b] ON [p].[BrandId] = [b].[Id]
+INNER JOIN [VehicleType] AS [v] ON [p].[VehicleTypeId] = [v].[Id]
+2024-09-05 23:20:35.867 +05:30 [INF] Executing ViewResult, running view Index.
+2024-09-05 23:20:35.876 +05:30 [INF] Executed ViewResult - view Index executed in 9.6032ms.
+2024-09-05 23:20:35.882 +05:30 [INF] Executed action SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp) in 53.6646ms
+2024-09-05 23:20:35.961 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-05 23:20:35.961 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_vs/browserLink - null null
+2024-09-05 23:20:36.021 +05:30 [INF] Executed endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:20:36.025 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 64.8804ms
+2024-09-05 23:20:36.045 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/?page=2 - 200 null text/html; charset=utf-8 239.8828ms
+2024-09-05 23:20:36.063 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_vs/browserLink - 200 null text/javascript; charset=UTF-8 101.9304ms
+2024-09-05 23:20:39.263 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/?page=3 - null null
+2024-09-05 23:20:39.278 +05:30 [INF] Executing endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:20:39.282 +05:30 [INF] Route matched with {area = "Customer", action = "Index", controller = "Home", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.Nullable`1[System.Int32], Boolean) on controller SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController (SpeedVechile.WepApp).
+2024-09-05 23:20:39.302 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[BrandLogo], [b].[CreatedBy], [b].[CreatedOn], [b].[EstablishedYear], [b].[ModifiedBy], [b].[ModifiedOn], [b].[Name]
+FROM [Brand] AS [b]
+2024-09-05 23:20:39.310 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[CreatedBy], [v].[CreatedOn], [v].[ModifiedBy], [v].[ModifiedOn], [v].[Name]
+FROM [VehicleType] AS [v]
+2024-09-05 23:20:39.332 +05:30 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[CreatedBy], [p].[CreatedOn], [p].[Engine], [p].[EngineAndFuelType], [p].[Mileage], [p].[ModifiedBy], [p].[ModifiedOn], [p].[Name], [p].[PriceFrom], [p].[PriceTo], [p].[Range], [p].[Ratings], [p].[SeatingCapacity], [p].[TopSpeed], [p].[Transmission], [p].[VehicleImage], [p].[VehicleTypeId], [b].[Id], [b].[BrandLogo], [b].[CreatedBy], [b].[CreatedOn], [b].[EstablishedYear], [b].[ModifiedBy], [b].[ModifiedOn], [b].[Name], [v].[Id], [v].[CreatedBy], [v].[CreatedOn], [v].[ModifiedBy], [v].[ModifiedOn], [v].[Name]
+FROM [Post] AS [p]
+INNER JOIN [Brand] AS [b] ON [p].[BrandId] = [b].[Id]
+INNER JOIN [VehicleType] AS [v] ON [p].[VehicleTypeId] = [v].[Id]
+2024-09-05 23:20:39.337 +05:30 [INF] Executing ViewResult, running view Index.
+2024-09-05 23:20:39.343 +05:30 [INF] Executed ViewResult - view Index executed in 5.6508ms.
+2024-09-05 23:20:39.345 +05:30 [INF] Executed action SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp) in 51.101ms
+2024-09-05 23:20:39.355 +05:30 [INF] Executed endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:20:39.358 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/?page=3 - 200 null text/html; charset=utf-8 94.2462ms
+2024-09-05 23:20:39.375 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-05 23:20:39.379 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_vs/browserLink - null null
+2024-09-05 23:20:39.401 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 26.0555ms
+2024-09-05 23:20:39.429 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_vs/browserLink - 200 null text/javascript; charset=UTF-8 51.3392ms
+2024-09-05 23:20:45.290 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7171/?page=3 - application/x-www-form-urlencoded 291
+2024-09-05 23:20:45.297 +05:30 [INF] Executing endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:20:45.311 +05:30 [INF] Route matched with {area = "Customer", action = "Index", controller = "Home", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(SpeedVechile.Domain.ViewModel.HomePostVM) on controller SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController (SpeedVechile.WepApp).
+2024-09-05 23:20:45.365 +05:30 [INF] Executed DbCommand (24ms) [Parameters=[@__searchName_0_contains='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[CreatedBy], [p].[CreatedOn], [p].[Engine], [p].[EngineAndFuelType], [p].[Mileage], [p].[ModifiedBy], [p].[ModifiedOn], [p].[Name], [p].[PriceFrom], [p].[PriceTo], [p].[Range], [p].[Ratings], [p].[SeatingCapacity], [p].[TopSpeed], [p].[Transmission], [p].[VehicleImage], [p].[VehicleTypeId], [b].[Id], [b].[BrandLogo], [b].[CreatedBy], [b].[CreatedOn], [b].[EstablishedYear], [b].[ModifiedBy], [b].[ModifiedOn], [b].[Name], [v].[Id], [v].[CreatedBy], [v].[CreatedOn], [v].[ModifiedBy], [v].[ModifiedOn], [v].[Name]
+FROM [Post] AS [p]
+INNER JOIN [Brand] AS [b] ON [p].[BrandId] = [b].[Id]
+INNER JOIN [VehicleType] AS [v] ON [p].[VehicleTypeId] = [v].[Id]
+WHERE [p].[Name] LIKE @__searchName_0_contains ESCAPE N'\'
+ORDER BY [p].[ModifiedOn] DESC
+2024-09-05 23:20:45.413 +05:30 [INF] Executing RedirectResult, redirecting to /?page=1&resetFilter=False.
+2024-09-05 23:20:45.417 +05:30 [INF] Executed action SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp) in 102.4677ms
+2024-09-05 23:20:45.419 +05:30 [INF] Executed endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:20:45.420 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7171/?page=3 - 302 0 null 130.4407ms
+2024-09-05 23:20:45.427 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/?page=1&resetFilter=False - null null
+2024-09-05 23:20:45.435 +05:30 [INF] Executing endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:20:45.436 +05:30 [INF] Route matched with {area = "Customer", action = "Index", controller = "Home", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.Nullable`1[System.Int32], Boolean) on controller SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController (SpeedVechile.WepApp).
+2024-09-05 23:20:45.441 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[BrandLogo], [b].[CreatedBy], [b].[CreatedOn], [b].[EstablishedYear], [b].[ModifiedBy], [b].[ModifiedOn], [b].[Name]
+FROM [Brand] AS [b]
+2024-09-05 23:20:45.446 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[CreatedBy], [v].[CreatedOn], [v].[ModifiedBy], [v].[ModifiedOn], [v].[Name]
+FROM [VehicleType] AS [v]
+2024-09-05 23:20:45.452 +05:30 [INF] Executing ViewResult, running view Index.
+2024-09-05 23:20:45.457 +05:30 [INF] Executed ViewResult - view Index executed in 5.6841ms.
+2024-09-05 23:20:45.461 +05:30 [INF] Executed action SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp) in 22.1065ms
+2024-09-05 23:20:45.464 +05:30 [INF] Executed endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:20:45.466 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/?page=1&resetFilter=False - 200 null text/html; charset=utf-8 41.264ms
+2024-09-05 23:20:45.494 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-05 23:20:45.495 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_vs/browserLink - null null
+2024-09-05 23:20:45.506 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 11.7317ms
+2024-09-05 23:20:45.544 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_vs/browserLink - 200 null text/javascript; charset=UTF-8 48.6408ms
+2024-09-05 23:20:51.565 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7171/?page=1&resetFilter=False - application/x-www-form-urlencoded 289
+2024-09-05 23:20:51.574 +05:30 [INF] Executing endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:20:51.577 +05:30 [INF] Route matched with {area = "Customer", action = "Index", controller = "Home", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(SpeedVechile.Domain.ViewModel.HomePostVM) on controller SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController (SpeedVechile.WepApp).
+2024-09-05 23:20:51.638 +05:30 [INF] Executed DbCommand (51ms) [Parameters=[@__brandId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[CreatedBy], [p].[CreatedOn], [p].[Engine], [p].[EngineAndFuelType], [p].[Mileage], [p].[ModifiedBy], [p].[ModifiedOn], [p].[Name], [p].[PriceFrom], [p].[PriceTo], [p].[Range], [p].[Ratings], [p].[SeatingCapacity], [p].[TopSpeed], [p].[Transmission], [p].[VehicleImage], [p].[VehicleTypeId], [b].[Id], [b].[BrandLogo], [b].[CreatedBy], [b].[CreatedOn], [b].[EstablishedYear], [b].[ModifiedBy], [b].[ModifiedOn], [b].[Name], [v].[Id], [v].[CreatedBy], [v].[CreatedOn], [v].[ModifiedBy], [v].[ModifiedOn], [v].[Name]
+FROM [Post] AS [p]
+INNER JOIN [Brand] AS [b] ON [p].[BrandId] = [b].[Id]
+INNER JOIN [VehicleType] AS [v] ON [p].[VehicleTypeId] = [v].[Id]
+WHERE [p].[BrandId] = @__brandId_0
+ORDER BY [p].[ModifiedOn] DESC
+2024-09-05 23:20:51.645 +05:30 [INF] Executing RedirectResult, redirecting to /?page=1&resetFilter=False.
+2024-09-05 23:20:51.647 +05:30 [INF] Executed action SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp) in 66.4848ms
+2024-09-05 23:20:51.650 +05:30 [INF] Executed endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:20:51.652 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7171/?page=1&resetFilter=False - 302 0 null 87.826ms
+2024-09-05 23:20:51.661 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/?page=1&resetFilter=False - null null
+2024-09-05 23:20:51.667 +05:30 [INF] Executing endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:20:51.669 +05:30 [INF] Route matched with {area = "Customer", action = "Index", controller = "Home", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.Nullable`1[System.Int32], Boolean) on controller SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController (SpeedVechile.WepApp).
+2024-09-05 23:20:51.679 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[BrandLogo], [b].[CreatedBy], [b].[CreatedOn], [b].[EstablishedYear], [b].[ModifiedBy], [b].[ModifiedOn], [b].[Name]
+FROM [Brand] AS [b]
+2024-09-05 23:20:51.686 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[CreatedBy], [v].[CreatedOn], [v].[ModifiedBy], [v].[ModifiedOn], [v].[Name]
+FROM [VehicleType] AS [v]
+2024-09-05 23:20:51.690 +05:30 [INF] Executing ViewResult, running view Index.
+2024-09-05 23:20:51.696 +05:30 [INF] Executed ViewResult - view Index executed in 5.8197ms.
+2024-09-05 23:20:51.699 +05:30 [INF] Executed action SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp) in 25.5744ms
+2024-09-05 23:20:51.704 +05:30 [INF] Executed endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:20:51.709 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/?page=1&resetFilter=False - 200 null text/html; charset=utf-8 47.3593ms
+2024-09-05 23:20:51.722 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-05 23:20:51.724 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_vs/browserLink - null null
+2024-09-05 23:20:51.730 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 8.5703ms
+2024-09-05 23:20:51.812 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_vs/browserLink - 200 null text/javascript; charset=UTF-8 88.1992ms
+2024-09-05 23:20:58.719 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7171/?page=1&resetFilter=False - application/x-www-form-urlencoded 291
+2024-09-05 23:20:58.733 +05:30 [INF] Executing endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:20:58.735 +05:30 [INF] Route matched with {area = "Customer", action = "Index", controller = "Home", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(SpeedVechile.Domain.ViewModel.HomePostVM) on controller SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController (SpeedVechile.WepApp).
+2024-09-05 23:20:58.775 +05:30 [INF] Executed DbCommand (30ms) [Parameters=[@__searchName_0_contains='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[CreatedBy], [p].[CreatedOn], [p].[Engine], [p].[EngineAndFuelType], [p].[Mileage], [p].[ModifiedBy], [p].[ModifiedOn], [p].[Name], [p].[PriceFrom], [p].[PriceTo], [p].[Range], [p].[Ratings], [p].[SeatingCapacity], [p].[TopSpeed], [p].[Transmission], [p].[VehicleImage], [p].[VehicleTypeId], [b].[Id], [b].[BrandLogo], [b].[CreatedBy], [b].[CreatedOn], [b].[EstablishedYear], [b].[ModifiedBy], [b].[ModifiedOn], [b].[Name], [v].[Id], [v].[CreatedBy], [v].[CreatedOn], [v].[ModifiedBy], [v].[ModifiedOn], [v].[Name]
+FROM [Post] AS [p]
+INNER JOIN [Brand] AS [b] ON [p].[BrandId] = [b].[Id]
+INNER JOIN [VehicleType] AS [v] ON [p].[VehicleTypeId] = [v].[Id]
+WHERE [p].[Name] LIKE @__searchName_0_contains ESCAPE N'\'
+ORDER BY [p].[ModifiedOn] DESC
+2024-09-05 23:20:58.784 +05:30 [INF] Executing RedirectResult, redirecting to /?page=1&resetFilter=False.
+2024-09-05 23:20:58.787 +05:30 [INF] Executed action SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp) in 44.7914ms
+2024-09-05 23:20:58.789 +05:30 [INF] Executed endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:20:58.791 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7171/?page=1&resetFilter=False - 302 0 null 71.542ms
+2024-09-05 23:20:58.795 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/?page=1&resetFilter=False - null null
+2024-09-05 23:20:58.806 +05:30 [INF] Executing endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:20:58.807 +05:30 [INF] Route matched with {area = "Customer", action = "Index", controller = "Home", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.Nullable`1[System.Int32], Boolean) on controller SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController (SpeedVechile.WepApp).
+2024-09-05 23:20:58.813 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[BrandLogo], [b].[CreatedBy], [b].[CreatedOn], [b].[EstablishedYear], [b].[ModifiedBy], [b].[ModifiedOn], [b].[Name]
+FROM [Brand] AS [b]
+2024-09-05 23:20:58.819 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[CreatedBy], [v].[CreatedOn], [v].[ModifiedBy], [v].[ModifiedOn], [v].[Name]
+FROM [VehicleType] AS [v]
+2024-09-05 23:20:58.823 +05:30 [INF] Executing ViewResult, running view Index.
+2024-09-05 23:20:58.831 +05:30 [INF] Executed ViewResult - view Index executed in 7.929ms.
+2024-09-05 23:20:58.836 +05:30 [INF] Executed action SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp) in 24.8728ms
+2024-09-05 23:20:58.839 +05:30 [INF] Executed endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:20:58.863 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-05 23:20:58.864 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_vs/browserLink - null null
+2024-09-05 23:20:58.866 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/?page=1&resetFilter=False - 200 null text/html; charset=utf-8 70.5088ms
+2024-09-05 23:20:58.871 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 7.7701ms
+2024-09-05 23:20:58.907 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_vs/browserLink - 200 null text/javascript; charset=UTF-8 43.1344ms
+2024-09-05 23:21:01.503 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/Customer/Home/Details/e124690b-bc4b-42af-314a-08dccc32e66e?page=1 - null null
+2024-09-05 23:21:01.511 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-09-05 23:21:01.514 +05:30 [INF] AuthenticationScheme: Identity.Application was challenged.
+2024-09-05 23:21:01.516 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/Customer/Home/Details/e124690b-bc4b-42af-314a-08dccc32e66e?page=1 - 302 0 null 13.2521ms
+2024-09-05 23:21:01.524 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/Identity/Account/Login?ReturnUrl=%2FCustomer%2FHome%2FDetails%2Fe124690b-bc4b-42af-314a-08dccc32e66e%3Fpage%3D1 - null null
+2024-09-05 23:21:01.533 +05:30 [INF] Executing endpoint '/Account/Login'
+2024-09-05 23:21:01.534 +05:30 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-09-05 23:21:01.537 +05:30 [INF] Executing handler method SpeedVechile.WepApp.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2024-09-05 23:21:01.539 +05:30 [INF] AuthenticationScheme: Identity.External signed out.
+2024-09-05 23:21:01.541 +05:30 [INF] Executed handler method OnGetAsync, returned result .
+2024-09-05 23:21:01.543 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-09-05 23:21:01.548 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-09-05 23:21:01.555 +05:30 [INF] Executed page /Account/Login in 19.6267ms
+2024-09-05 23:21:01.558 +05:30 [INF] Executed endpoint '/Account/Login'
+2024-09-05 23:21:01.578 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/Identity/Account/Login?ReturnUrl=%2FCustomer%2FHome%2FDetails%2Fe124690b-bc4b-42af-314a-08dccc32e66e%3Fpage%3D1 - 200 null text/html; charset=utf-8 54.242ms
+2024-09-05 23:21:01.598 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_vs/browserLink - null null
+2024-09-05 23:21:01.599 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-05 23:21:01.634 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 34.9845ms
+2024-09-05 23:21:01.659 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_vs/browserLink - 200 null text/javascript; charset=UTF-8 60.8633ms
+2024-09-05 23:21:15.691 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7171/Identity/Account/Login?ReturnUrl=%2FCustomer%2FHome%2FDetails%2Fe124690b-bc4b-42af-314a-08dccc32e66e%3Fpage%3D1 - application/x-www-form-urlencoded 268
+2024-09-05 23:21:15.700 +05:30 [INF] Executing endpoint '/Account/Login'
+2024-09-05 23:21:15.702 +05:30 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-09-05 23:21:15.705 +05:30 [INF] Executing handler method SpeedVechile.WepApp.Areas.Identity.Pages.Account.LoginModel.OnPostAsync - ModelState is "Valid"
+2024-09-05 23:21:15.726 +05:30 [INF] Executed DbCommand (17ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-09-05 23:21:15.908 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2024-09-05 23:21:15.923 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-09-05 23:21:15.935 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2024-09-05 23:21:15.945 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2024-09-05 23:21:15.949 +05:30 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-09-05 23:21:15.953 +05:30 [INF] User logged in.
+2024-09-05 23:21:15.954 +05:30 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult.
+2024-09-05 23:21:15.956 +05:30 [INF] Executing LocalRedirectResult, redirecting to /Customer/Home/Details/e124690b-bc4b-42af-314a-08dccc32e66e?page=1.
+2024-09-05 23:21:15.959 +05:30 [INF] Executed page /Account/Login in 255.1211ms
+2024-09-05 23:21:15.961 +05:30 [INF] Executed endpoint '/Account/Login'
+2024-09-05 23:21:15.963 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7171/Identity/Account/Login?ReturnUrl=%2FCustomer%2FHome%2FDetails%2Fe124690b-bc4b-42af-314a-08dccc32e66e%3Fpage%3D1 - 302 0 null 271.1146ms
+2024-09-05 23:21:15.969 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/Customer/Home/Details/e124690b-bc4b-42af-314a-08dccc32e66e?page=1 - null null
+2024-09-05 23:21:15.978 +05:30 [INF] Executing endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Details (SpeedVechile.WepApp)'
+2024-09-05 23:21:15.980 +05:30 [INF] Route matched with {area = "Customer", action = "Details", controller = "Home", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Details(System.Guid, System.Nullable`1[System.Int32]) on controller SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController (SpeedVechile.WepApp).
+2024-09-05 23:21:15.995 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[BrandId], [p].[CreatedBy], [p].[CreatedOn], [p].[Engine], [p].[EngineAndFuelType], [p].[Mileage], [p].[ModifiedBy], [p].[ModifiedOn], [p].[Name], [p].[PriceFrom], [p].[PriceTo], [p].[Range], [p].[Ratings], [p].[SeatingCapacity], [p].[TopSpeed], [p].[Transmission], [p].[VehicleImage], [p].[VehicleTypeId], [b].[Id], [b].[BrandLogo], [b].[CreatedBy], [b].[CreatedOn], [b].[EstablishedYear], [b].[ModifiedBy], [b].[ModifiedOn], [b].[Name], [v].[Id], [v].[CreatedBy], [v].[CreatedOn], [v].[ModifiedBy], [v].[ModifiedOn], [v].[Name]
+FROM [Post] AS [p]
+INNER JOIN [Brand] AS [b] ON [p].[BrandId] = [b].[Id]
+INNER JOIN [VehicleType] AS [v] ON [p].[VehicleTypeId] = [v].[Id]
+WHERE [p].[Id] = @__id_0
+2024-09-05 23:21:16.007 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[@__brandId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[CreatedBy], [p].[CreatedOn], [p].[Engine], [p].[EngineAndFuelType], [p].[Mileage], [p].[ModifiedBy], [p].[ModifiedOn], [p].[Name], [p].[PriceFrom], [p].[PriceTo], [p].[Range], [p].[Ratings], [p].[SeatingCapacity], [p].[TopSpeed], [p].[Transmission], [p].[VehicleImage], [p].[VehicleTypeId], [b].[Id], [b].[BrandLogo], [b].[CreatedBy], [b].[CreatedOn], [b].[EstablishedYear], [b].[ModifiedBy], [b].[ModifiedOn], [b].[Name], [v].[Id], [v].[CreatedBy], [v].[CreatedOn], [v].[ModifiedBy], [v].[ModifiedOn], [v].[Name]
+FROM [Post] AS [p]
+INNER JOIN [Brand] AS [b] ON [p].[BrandId] = [b].[Id]
+INNER JOIN [VehicleType] AS [v] ON [p].[VehicleTypeId] = [v].[Id]
+WHERE [p].[BrandId] = @__brandId_0
+ORDER BY [p].[ModifiedOn] DESC
+2024-09-05 23:21:16.012 +05:30 [INF] Executing ViewResult, running view Details.
+2024-09-05 23:21:16.020 +05:30 [INF] Executed ViewResult - view Details executed in 8.2287ms.
+2024-09-05 23:21:16.023 +05:30 [INF] Executed action SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Details (SpeedVechile.WepApp) in 40.4321ms
+2024-09-05 23:21:16.098 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-05 23:21:16.106 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_vs/browserLink - null null
+2024-09-05 23:21:16.111 +05:30 [INF] Executed endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Details (SpeedVechile.WepApp)'
+2024-09-05 23:21:16.117 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 19.2983ms
+2024-09-05 23:21:16.171 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/Customer/Home/Details/e124690b-bc4b-42af-314a-08dccc32e66e?page=1 - 200 null text/html; charset=utf-8 201.8321ms
+2024-09-05 23:21:16.195 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_vs/browserLink - 200 null text/javascript; charset=UTF-8 89.0245ms
+2024-09-05 23:21:39.935 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/Customer/Home/GoBack?page=1 - null null
+2024-09-05 23:21:39.951 +05:30 [INF] Executing endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.GoBack (SpeedVechile.WepApp)'
+2024-09-05 23:21:39.953 +05:30 [INF] Route matched with {area = "Customer", action = "GoBack", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GoBack(System.Nullable`1[System.Int32]) on controller SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController (SpeedVechile.WepApp).
+2024-09-05 23:21:39.958 +05:30 [INF] Executing RedirectResult, redirecting to /?page=1.
+2024-09-05 23:21:39.959 +05:30 [INF] Executed action SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.GoBack (SpeedVechile.WepApp) in 2.5419ms
+2024-09-05 23:21:39.962 +05:30 [INF] Executed endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.GoBack (SpeedVechile.WepApp)'
+2024-09-05 23:21:39.965 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/Customer/Home/GoBack?page=1 - 302 0 null 29.6384ms
+2024-09-05 23:21:39.977 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/?page=1 - null null
+2024-09-05 23:21:39.991 +05:30 [INF] Executing endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:21:39.993 +05:30 [INF] Route matched with {area = "Customer", action = "Index", controller = "Home", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.Nullable`1[System.Int32], Boolean) on controller SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController (SpeedVechile.WepApp).
+2024-09-05 23:21:40.002 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[BrandLogo], [b].[CreatedBy], [b].[CreatedOn], [b].[EstablishedYear], [b].[ModifiedBy], [b].[ModifiedOn], [b].[Name]
+FROM [Brand] AS [b]
+2024-09-05 23:21:40.008 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[CreatedBy], [v].[CreatedOn], [v].[ModifiedBy], [v].[ModifiedOn], [v].[Name]
+FROM [VehicleType] AS [v]
+2024-09-05 23:21:40.011 +05:30 [INF] Executing ViewResult, running view Index.
+2024-09-05 23:21:40.016 +05:30 [INF] Executed ViewResult - view Index executed in 4.5762ms.
+2024-09-05 23:21:40.018 +05:30 [INF] Executed action SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp) in 19.9125ms
+2024-09-05 23:21:40.028 +05:30 [INF] Executed endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:21:40.037 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/?page=1 - 200 null text/html; charset=utf-8 59.8694ms
+2024-09-05 23:21:40.055 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-05 23:21:40.064 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_vs/browserLink - null null
+2024-09-05 23:21:40.072 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 17.1034ms
+2024-09-05 23:21:40.106 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_vs/browserLink - 200 null text/javascript; charset=UTF-8 42.0871ms
+2024-09-05 23:21:42.390 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/?page=1&resetFilter=True - null null
+2024-09-05 23:21:42.406 +05:30 [INF] Executing endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:21:42.409 +05:30 [INF] Route matched with {area = "Customer", action = "Index", controller = "Home", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.Nullable`1[System.Int32], Boolean) on controller SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController (SpeedVechile.WepApp).
+2024-09-05 23:21:42.420 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[BrandLogo], [b].[CreatedBy], [b].[CreatedOn], [b].[EstablishedYear], [b].[ModifiedBy], [b].[ModifiedOn], [b].[Name]
+FROM [Brand] AS [b]
+2024-09-05 23:21:42.426 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[CreatedBy], [v].[CreatedOn], [v].[ModifiedBy], [v].[ModifiedOn], [v].[Name]
+FROM [VehicleType] AS [v]
+2024-09-05 23:21:42.442 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[CreatedBy], [p].[CreatedOn], [p].[Engine], [p].[EngineAndFuelType], [p].[Mileage], [p].[ModifiedBy], [p].[ModifiedOn], [p].[Name], [p].[PriceFrom], [p].[PriceTo], [p].[Range], [p].[Ratings], [p].[SeatingCapacity], [p].[TopSpeed], [p].[Transmission], [p].[VehicleImage], [p].[VehicleTypeId], [b].[Id], [b].[BrandLogo], [b].[CreatedBy], [b].[CreatedOn], [b].[EstablishedYear], [b].[ModifiedBy], [b].[ModifiedOn], [b].[Name], [v].[Id], [v].[CreatedBy], [v].[CreatedOn], [v].[ModifiedBy], [v].[ModifiedOn], [v].[Name]
+FROM [Post] AS [p]
+INNER JOIN [Brand] AS [b] ON [p].[BrandId] = [b].[Id]
+INNER JOIN [VehicleType] AS [v] ON [p].[VehicleTypeId] = [v].[Id]
+2024-09-05 23:21:42.447 +05:30 [INF] Executing ViewResult, running view Index.
+2024-09-05 23:21:42.454 +05:30 [INF] Executed ViewResult - view Index executed in 6.4085ms.
+2024-09-05 23:21:42.499 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-05 23:21:42.531 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_vs/browserLink - null null
+2024-09-05 23:21:42.539 +05:30 [INF] Executed action SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp) in 123.4587ms
+2024-09-05 23:21:42.545 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 46.0306ms
+2024-09-05 23:21:42.553 +05:30 [INF] Executed endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:21:42.559 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/?page=1&resetFilter=True - 200 null text/html; charset=utf-8 169.1434ms
+2024-09-05 23:21:42.571 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_vs/browserLink - 200 null text/javascript; charset=UTF-8 40.7266ms
+2024-09-05 23:21:45.713 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/Customer/Home/Details/3ab6d458-4f0d-46c2-3144-08dccc32e66e?page=1 - null null
+2024-09-05 23:21:45.721 +05:30 [INF] Executing endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Details (SpeedVechile.WepApp)'
+2024-09-05 23:21:45.724 +05:30 [INF] Route matched with {area = "Customer", action = "Details", controller = "Home", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Details(System.Guid, System.Nullable`1[System.Int32]) on controller SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController (SpeedVechile.WepApp).
+2024-09-05 23:21:45.744 +05:30 [INF] Executed DbCommand (11ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[BrandId], [p].[CreatedBy], [p].[CreatedOn], [p].[Engine], [p].[EngineAndFuelType], [p].[Mileage], [p].[ModifiedBy], [p].[ModifiedOn], [p].[Name], [p].[PriceFrom], [p].[PriceTo], [p].[Range], [p].[Ratings], [p].[SeatingCapacity], [p].[TopSpeed], [p].[Transmission], [p].[VehicleImage], [p].[VehicleTypeId], [b].[Id], [b].[BrandLogo], [b].[CreatedBy], [b].[CreatedOn], [b].[EstablishedYear], [b].[ModifiedBy], [b].[ModifiedOn], [b].[Name], [v].[Id], [v].[CreatedBy], [v].[CreatedOn], [v].[ModifiedBy], [v].[ModifiedOn], [v].[Name]
+FROM [Post] AS [p]
+INNER JOIN [Brand] AS [b] ON [p].[BrandId] = [b].[Id]
+INNER JOIN [VehicleType] AS [v] ON [p].[VehicleTypeId] = [v].[Id]
+WHERE [p].[Id] = @__id_0
+2024-09-05 23:21:45.761 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[@__brandId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[CreatedBy], [p].[CreatedOn], [p].[Engine], [p].[EngineAndFuelType], [p].[Mileage], [p].[ModifiedBy], [p].[ModifiedOn], [p].[Name], [p].[PriceFrom], [p].[PriceTo], [p].[Range], [p].[Ratings], [p].[SeatingCapacity], [p].[TopSpeed], [p].[Transmission], [p].[VehicleImage], [p].[VehicleTypeId], [b].[Id], [b].[BrandLogo], [b].[CreatedBy], [b].[CreatedOn], [b].[EstablishedYear], [b].[ModifiedBy], [b].[ModifiedOn], [b].[Name], [v].[Id], [v].[CreatedBy], [v].[CreatedOn], [v].[ModifiedBy], [v].[ModifiedOn], [v].[Name]
+FROM [Post] AS [p]
+INNER JOIN [Brand] AS [b] ON [p].[BrandId] = [b].[Id]
+INNER JOIN [VehicleType] AS [v] ON [p].[VehicleTypeId] = [v].[Id]
+WHERE [p].[BrandId] = @__brandId_0
+ORDER BY [p].[ModifiedOn] DESC
+2024-09-05 23:21:45.765 +05:30 [INF] Executing ViewResult, running view Details.
+2024-09-05 23:21:45.770 +05:30 [INF] Executed ViewResult - view Details executed in 4.9496ms.
+2024-09-05 23:21:45.806 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_vs/browserLink - null null
+2024-09-05 23:21:45.806 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-05 23:21:45.808 +05:30 [INF] Executed action SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Details (SpeedVechile.WepApp) in 75.8451ms
+2024-09-05 23:21:45.820 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 13.7877ms
+2024-09-05 23:21:45.831 +05:30 [INF] Executed endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Details (SpeedVechile.WepApp)'
+2024-09-05 23:21:45.840 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/Customer/Home/Details/3ab6d458-4f0d-46c2-3144-08dccc32e66e?page=1 - 200 null text/html; charset=utf-8 126.498ms
+2024-09-05 23:21:45.858 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_vs/browserLink - 200 null text/javascript; charset=UTF-8 52.0376ms
+2024-09-05 23:21:47.553 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/Customer/Home/GoBack?page=1 - null null
+2024-09-05 23:21:47.562 +05:30 [INF] Executing endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.GoBack (SpeedVechile.WepApp)'
+2024-09-05 23:21:47.564 +05:30 [INF] Route matched with {area = "Customer", action = "GoBack", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GoBack(System.Nullable`1[System.Int32]) on controller SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController (SpeedVechile.WepApp).
+2024-09-05 23:21:47.574 +05:30 [INF] Executing RedirectResult, redirecting to /?page=1.
+2024-09-05 23:21:47.576 +05:30 [INF] Executed action SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.GoBack (SpeedVechile.WepApp) in 3.5586ms
+2024-09-05 23:21:47.579 +05:30 [INF] Executed endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.GoBack (SpeedVechile.WepApp)'
+2024-09-05 23:21:47.581 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/Customer/Home/GoBack?page=1 - 302 0 null 28.9394ms
+2024-09-05 23:21:47.587 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/?page=1 - null null
+2024-09-05 23:21:47.596 +05:30 [INF] Executing endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:21:47.598 +05:30 [INF] Route matched with {area = "Customer", action = "Index", controller = "Home", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.Nullable`1[System.Int32], Boolean) on controller SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController (SpeedVechile.WepApp).
+2024-09-05 23:21:47.614 +05:30 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[BrandLogo], [b].[CreatedBy], [b].[CreatedOn], [b].[EstablishedYear], [b].[ModifiedBy], [b].[ModifiedOn], [b].[Name]
+FROM [Brand] AS [b]
+2024-09-05 23:21:47.623 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[CreatedBy], [v].[CreatedOn], [v].[ModifiedBy], [v].[ModifiedOn], [v].[Name]
+FROM [VehicleType] AS [v]
+2024-09-05 23:21:47.646 +05:30 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[CreatedBy], [p].[CreatedOn], [p].[Engine], [p].[EngineAndFuelType], [p].[Mileage], [p].[ModifiedBy], [p].[ModifiedOn], [p].[Name], [p].[PriceFrom], [p].[PriceTo], [p].[Range], [p].[Ratings], [p].[SeatingCapacity], [p].[TopSpeed], [p].[Transmission], [p].[VehicleImage], [p].[VehicleTypeId], [b].[Id], [b].[BrandLogo], [b].[CreatedBy], [b].[CreatedOn], [b].[EstablishedYear], [b].[ModifiedBy], [b].[ModifiedOn], [b].[Name], [v].[Id], [v].[CreatedBy], [v].[CreatedOn], [v].[ModifiedBy], [v].[ModifiedOn], [v].[Name]
+FROM [Post] AS [p]
+INNER JOIN [Brand] AS [b] ON [p].[BrandId] = [b].[Id]
+INNER JOIN [VehicleType] AS [v] ON [p].[VehicleTypeId] = [v].[Id]
+2024-09-05 23:21:47.654 +05:30 [INF] Executing ViewResult, running view Index.
+2024-09-05 23:21:47.660 +05:30 [INF] Executed ViewResult - view Index executed in 6.0886ms.
+2024-09-05 23:21:47.663 +05:30 [INF] Executed action SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp) in 60.2781ms
+2024-09-05 23:21:47.668 +05:30 [INF] Executed endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:21:47.679 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/?page=1 - 200 null text/html; charset=utf-8 91.6345ms
+2024-09-05 23:21:47.699 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-05 23:21:47.700 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_vs/browserLink - null null
+2024-09-05 23:21:47.706 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 7.2879ms
+2024-09-05 23:21:47.799 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_vs/browserLink - 200 null text/javascript; charset=UTF-8 98.9677ms
+2024-09-05 23:21:49.515 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/Customer/Home/Details/cdca3f7c-e0da-4081-3145-08dccc32e66e?page=1 - null null
+2024-09-05 23:21:49.525 +05:30 [INF] Executing endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Details (SpeedVechile.WepApp)'
+2024-09-05 23:21:49.528 +05:30 [INF] Route matched with {area = "Customer", action = "Details", controller = "Home", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Details(System.Guid, System.Nullable`1[System.Int32]) on controller SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController (SpeedVechile.WepApp).
+2024-09-05 23:21:49.551 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[BrandId], [p].[CreatedBy], [p].[CreatedOn], [p].[Engine], [p].[EngineAndFuelType], [p].[Mileage], [p].[ModifiedBy], [p].[ModifiedOn], [p].[Name], [p].[PriceFrom], [p].[PriceTo], [p].[Range], [p].[Ratings], [p].[SeatingCapacity], [p].[TopSpeed], [p].[Transmission], [p].[VehicleImage], [p].[VehicleTypeId], [b].[Id], [b].[BrandLogo], [b].[CreatedBy], [b].[CreatedOn], [b].[EstablishedYear], [b].[ModifiedBy], [b].[ModifiedOn], [b].[Name], [v].[Id], [v].[CreatedBy], [v].[CreatedOn], [v].[ModifiedBy], [v].[ModifiedOn], [v].[Name]
+FROM [Post] AS [p]
+INNER JOIN [Brand] AS [b] ON [p].[BrandId] = [b].[Id]
+INNER JOIN [VehicleType] AS [v] ON [p].[VehicleTypeId] = [v].[Id]
+WHERE [p].[Id] = @__id_0
+2024-09-05 23:21:49.578 +05:30 [INF] Executed DbCommand (20ms) [Parameters=[@__brandId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[CreatedBy], [p].[CreatedOn], [p].[Engine], [p].[EngineAndFuelType], [p].[Mileage], [p].[ModifiedBy], [p].[ModifiedOn], [p].[Name], [p].[PriceFrom], [p].[PriceTo], [p].[Range], [p].[Ratings], [p].[SeatingCapacity], [p].[TopSpeed], [p].[Transmission], [p].[VehicleImage], [p].[VehicleTypeId], [b].[Id], [b].[BrandLogo], [b].[CreatedBy], [b].[CreatedOn], [b].[EstablishedYear], [b].[ModifiedBy], [b].[ModifiedOn], [b].[Name], [v].[Id], [v].[CreatedBy], [v].[CreatedOn], [v].[ModifiedBy], [v].[ModifiedOn], [v].[Name]
+FROM [Post] AS [p]
+INNER JOIN [Brand] AS [b] ON [p].[BrandId] = [b].[Id]
+INNER JOIN [VehicleType] AS [v] ON [p].[VehicleTypeId] = [v].[Id]
+WHERE [p].[BrandId] = @__brandId_0
+ORDER BY [p].[ModifiedOn] DESC
+2024-09-05 23:21:49.600 +05:30 [INF] Executing ViewResult, running view Details.
+2024-09-05 23:21:49.605 +05:30 [INF] Executed ViewResult - view Details executed in 4.7951ms.
+2024-09-05 23:21:49.644 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-05 23:21:49.644 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_vs/browserLink - null null
+2024-09-05 23:21:49.654 +05:30 [INF] Executed action SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Details (SpeedVechile.WepApp) in 118.2639ms
+2024-09-05 23:21:49.664 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 20.0607ms
+2024-09-05 23:21:49.665 +05:30 [INF] Executed endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Details (SpeedVechile.WepApp)'
+2024-09-05 23:21:49.668 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/Customer/Home/Details/cdca3f7c-e0da-4081-3145-08dccc32e66e?page=1 - 200 null text/html; charset=utf-8 153.8981ms
+2024-09-05 23:21:49.697 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_vs/browserLink - 200 null text/javascript; charset=UTF-8 53.8056ms
+2024-09-05 23:21:58.523 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/Customer/Home/GoBack?page=1 - null null
+2024-09-05 23:21:58.539 +05:30 [INF] Executing endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.GoBack (SpeedVechile.WepApp)'
+2024-09-05 23:21:58.541 +05:30 [INF] Route matched with {area = "Customer", action = "GoBack", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GoBack(System.Nullable`1[System.Int32]) on controller SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController (SpeedVechile.WepApp).
+2024-09-05 23:21:58.545 +05:30 [INF] Executing RedirectResult, redirecting to /?page=1.
+2024-09-05 23:21:58.547 +05:30 [INF] Executed action SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.GoBack (SpeedVechile.WepApp) in 1.9021ms
+2024-09-05 23:21:58.552 +05:30 [INF] Executed endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.GoBack (SpeedVechile.WepApp)'
+2024-09-05 23:21:58.556 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/Customer/Home/GoBack?page=1 - 302 0 null 33.4332ms
+2024-09-05 23:21:58.561 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/?page=1 - null null
+2024-09-05 23:21:58.568 +05:30 [INF] Executing endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:21:58.570 +05:30 [INF] Route matched with {area = "Customer", action = "Index", controller = "Home", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.Nullable`1[System.Int32], Boolean) on controller SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController (SpeedVechile.WepApp).
+2024-09-05 23:21:58.592 +05:30 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[BrandLogo], [b].[CreatedBy], [b].[CreatedOn], [b].[EstablishedYear], [b].[ModifiedBy], [b].[ModifiedOn], [b].[Name]
+FROM [Brand] AS [b]
+2024-09-05 23:21:58.599 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[CreatedBy], [v].[CreatedOn], [v].[ModifiedBy], [v].[ModifiedOn], [v].[Name]
+FROM [VehicleType] AS [v]
+2024-09-05 23:21:58.613 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[CreatedBy], [p].[CreatedOn], [p].[Engine], [p].[EngineAndFuelType], [p].[Mileage], [p].[ModifiedBy], [p].[ModifiedOn], [p].[Name], [p].[PriceFrom], [p].[PriceTo], [p].[Range], [p].[Ratings], [p].[SeatingCapacity], [p].[TopSpeed], [p].[Transmission], [p].[VehicleImage], [p].[VehicleTypeId], [b].[Id], [b].[BrandLogo], [b].[CreatedBy], [b].[CreatedOn], [b].[EstablishedYear], [b].[ModifiedBy], [b].[ModifiedOn], [b].[Name], [v].[Id], [v].[CreatedBy], [v].[CreatedOn], [v].[ModifiedBy], [v].[ModifiedOn], [v].[Name]
+FROM [Post] AS [p]
+INNER JOIN [Brand] AS [b] ON [p].[BrandId] = [b].[Id]
+INNER JOIN [VehicleType] AS [v] ON [p].[VehicleTypeId] = [v].[Id]
+2024-09-05 23:21:58.618 +05:30 [INF] Executing ViewResult, running view Index.
+2024-09-05 23:21:58.623 +05:30 [INF] Executed ViewResult - view Index executed in 5.6332ms.
+2024-09-05 23:21:58.659 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-05 23:21:58.660 +05:30 [INF] Executed action SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp) in 86.9215ms
+2024-09-05 23:21:58.665 +05:30 [INF] Executed endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:21:58.667 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/?page=1 - 200 null text/html; charset=utf-8 106.4707ms
+2024-09-05 23:21:58.672 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_vs/browserLink - null null
+2024-09-05 23:21:58.685 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 26.1887ms
+2024-09-05 23:21:58.762 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_vs/browserLink - 200 null text/javascript; charset=UTF-8 97.4498ms
+2024-09-05 23:22:01.281 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7171/Identity/Account/Logout?returnUrl=%2F - application/x-www-form-urlencoded 225
+2024-09-05 23:22:01.293 +05:30 [INF] Executing endpoint '/Account/Logout'
+2024-09-05 23:22:01.297 +05:30 [INF] Route matched with {page = "/Account/Logout", area = "Identity", action = "", controller = ""}. Executing page /Account/Logout
+2024-09-05 23:22:01.299 +05:30 [INF] Executing handler method SpeedVechile.WepApp.Areas.Identity.Pages.Account.LogoutModel.OnPost - ModelState is "Valid"
+2024-09-05 23:22:01.302 +05:30 [INF] AuthenticationScheme: Identity.Application signed out.
+2024-09-05 23:22:01.304 +05:30 [INF] AuthenticationScheme: Identity.External signed out.
+2024-09-05 23:22:01.305 +05:30 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2024-09-05 23:22:01.307 +05:30 [INF] User logged out.
+2024-09-05 23:22:01.309 +05:30 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult.
+2024-09-05 23:22:01.311 +05:30 [INF] Executing LocalRedirectResult, redirecting to /.
+2024-09-05 23:22:01.313 +05:30 [INF] Executed page /Account/Logout in 13.6958ms
+2024-09-05 23:22:01.318 +05:30 [INF] Executed endpoint '/Account/Logout'
+2024-09-05 23:22:01.320 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7171/Identity/Account/Logout?returnUrl=%2F - 302 0 null 38.9104ms
+2024-09-05 23:22:01.325 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/ - null null
+2024-09-05 23:22:01.332 +05:30 [INF] Executing endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:22:01.335 +05:30 [INF] Route matched with {area = "Customer", action = "Index", controller = "Home", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.Nullable`1[System.Int32], Boolean) on controller SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController (SpeedVechile.WepApp).
+2024-09-05 23:22:01.353 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[BrandLogo], [b].[CreatedBy], [b].[CreatedOn], [b].[EstablishedYear], [b].[ModifiedBy], [b].[ModifiedOn], [b].[Name]
+FROM [Brand] AS [b]
+2024-09-05 23:22:01.359 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[CreatedBy], [v].[CreatedOn], [v].[ModifiedBy], [v].[ModifiedOn], [v].[Name]
+FROM [VehicleType] AS [v]
+2024-09-05 23:22:01.371 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[CreatedBy], [p].[CreatedOn], [p].[Engine], [p].[EngineAndFuelType], [p].[Mileage], [p].[ModifiedBy], [p].[ModifiedOn], [p].[Name], [p].[PriceFrom], [p].[PriceTo], [p].[Range], [p].[Ratings], [p].[SeatingCapacity], [p].[TopSpeed], [p].[Transmission], [p].[VehicleImage], [p].[VehicleTypeId], [b].[Id], [b].[BrandLogo], [b].[CreatedBy], [b].[CreatedOn], [b].[EstablishedYear], [b].[ModifiedBy], [b].[ModifiedOn], [b].[Name], [v].[Id], [v].[CreatedBy], [v].[CreatedOn], [v].[ModifiedBy], [v].[ModifiedOn], [v].[Name]
+FROM [Post] AS [p]
+INNER JOIN [Brand] AS [b] ON [p].[BrandId] = [b].[Id]
+INNER JOIN [VehicleType] AS [v] ON [p].[VehicleTypeId] = [v].[Id]
+2024-09-05 23:22:01.377 +05:30 [INF] Executing ViewResult, running view Index.
+2024-09-05 23:22:01.382 +05:30 [INF] Executed ViewResult - view Index executed in 5.9105ms.
+2024-09-05 23:22:01.384 +05:30 [INF] Executed action SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp) in 40.8681ms
+2024-09-05 23:22:01.388 +05:30 [INF] Executed endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:22:01.395 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/ - 200 null text/html; charset=utf-8 69.6229ms
+2024-09-05 23:22:01.411 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-05 23:22:01.413 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_vs/browserLink - null null
+2024-09-05 23:22:01.423 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 11.272ms
+2024-09-05 23:22:01.459 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_vs/browserLink - 200 null text/javascript; charset=UTF-8 45.6558ms
+2024-09-05 23:22:03.201 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/?page=1&resetFilter=True - null null
+2024-09-05 23:22:03.209 +05:30 [INF] Executing endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:22:03.212 +05:30 [INF] Route matched with {area = "Customer", action = "Index", controller = "Home", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.Nullable`1[System.Int32], Boolean) on controller SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController (SpeedVechile.WepApp).
+2024-09-05 23:22:03.229 +05:30 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[BrandLogo], [b].[CreatedBy], [b].[CreatedOn], [b].[EstablishedYear], [b].[ModifiedBy], [b].[ModifiedOn], [b].[Name]
+FROM [Brand] AS [b]
+2024-09-05 23:22:03.238 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[CreatedBy], [v].[CreatedOn], [v].[ModifiedBy], [v].[ModifiedOn], [v].[Name]
+FROM [VehicleType] AS [v]
+2024-09-05 23:22:03.247 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[CreatedBy], [p].[CreatedOn], [p].[Engine], [p].[EngineAndFuelType], [p].[Mileage], [p].[ModifiedBy], [p].[ModifiedOn], [p].[Name], [p].[PriceFrom], [p].[PriceTo], [p].[Range], [p].[Ratings], [p].[SeatingCapacity], [p].[TopSpeed], [p].[Transmission], [p].[VehicleImage], [p].[VehicleTypeId], [b].[Id], [b].[BrandLogo], [b].[CreatedBy], [b].[CreatedOn], [b].[EstablishedYear], [b].[ModifiedBy], [b].[ModifiedOn], [b].[Name], [v].[Id], [v].[CreatedBy], [v].[CreatedOn], [v].[ModifiedBy], [v].[ModifiedOn], [v].[Name]
+FROM [Post] AS [p]
+INNER JOIN [Brand] AS [b] ON [p].[BrandId] = [b].[Id]
+INNER JOIN [VehicleType] AS [v] ON [p].[VehicleTypeId] = [v].[Id]
+2024-09-05 23:22:03.253 +05:30 [INF] Executing ViewResult, running view Index.
+2024-09-05 23:22:03.263 +05:30 [INF] Executed ViewResult - view Index executed in 9.7601ms.
+2024-09-05 23:22:03.265 +05:30 [INF] Executed action SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp) in 48.8471ms
+2024-09-05 23:22:03.268 +05:30 [INF] Executed endpoint 'SpeedVechile.WepApp.Areas.Customer.Controllers.HomeController.Index (SpeedVechile.WepApp)'
+2024-09-05 23:22:03.273 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/?page=1&resetFilter=True - 200 null text/html; charset=utf-8 72.0838ms
+2024-09-05 23:22:03.291 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-05 23:22:03.297 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 6.3304ms
+2024-09-05 23:22:03.297 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_vs/browserLink - null null
+2024-09-05 23:22:03.378 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_vs/browserLink - 200 null text/javascript; charset=UTF-8 80.9848ms

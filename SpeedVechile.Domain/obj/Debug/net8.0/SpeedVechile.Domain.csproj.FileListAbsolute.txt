@@ -1,0 +1,12 @@
+C:\Users\Admin\source\repos\GoldenSpeedVechile\SpeedVechile.Domain\bin\Debug\net8.0\SpeedVechile.Domain.deps.json
+C:\Users\Admin\source\repos\GoldenSpeedVechile\SpeedVechile.Domain\bin\Debug\net8.0\SpeedVechile.Domain.dll
+C:\Users\Admin\source\repos\GoldenSpeedVechile\SpeedVechile.Domain\bin\Debug\net8.0\SpeedVechile.Domain.pdb
+C:\Users\Admin\source\repos\GoldenSpeedVechile\SpeedVechile.Domain\obj\Debug\net8.0\SpeedVechile.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\GoldenSpeedVechile\SpeedVechile.Domain\obj\Debug\net8.0\SpeedVechile.Domain.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\GoldenSpeedVechile\SpeedVechile.Domain\obj\Debug\net8.0\SpeedVechile.Domain.AssemblyInfo.cs
+C:\Users\Admin\source\repos\GoldenSpeedVechile\SpeedVechile.Domain\obj\Debug\net8.0\SpeedVechile.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\GoldenSpeedVechile\SpeedVechile.Domain\obj\Debug\net8.0\SpeedVechile.Domain.dll
+C:\Users\Admin\source\repos\GoldenSpeedVechile\SpeedVechile.Domain\obj\Debug\net8.0\refint\SpeedVechile.Domain.dll
+C:\Users\Admin\source\repos\GoldenSpeedVechile\SpeedVechile.Domain\obj\Debug\net8.0\SpeedVechile.Domain.pdb
+C:\Users\Admin\source\repos\GoldenSpeedVechile\SpeedVechile.Domain\obj\Debug\net8.0\ref\SpeedVechile.Domain.dll
+C:\Users\Admin\source\repos\GoldenSpeedVechile\SpeedVechile.Domain\obj\Debug\net8.0\SpeedVechile.Domain.csproj.AssemblyReference.cache

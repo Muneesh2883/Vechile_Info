@@ -1,0 +1,337 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SpeedVechile.WepApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\SpeedVechile.WepApp.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\images\\brand\\0822b8e8-9ce4-41ac-ada3-ff42384906d6.png",
+      "PackagePath": "staticwebassets\\images\\brand\\0822b8e8-9ce4-41ac-ada3-ff42384906d6.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\images\\brand\\0efb4004-7209-4811-8fb2-460322f3bc4a.png",
+      "PackagePath": "staticwebassets\\images\\brand\\0efb4004-7209-4811-8fb2-460322f3bc4a.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\images\\brand\\18e7a04f-953d-42c8-b29a-4f300d3eee70.png",
+      "PackagePath": "staticwebassets\\images\\brand\\18e7a04f-953d-42c8-b29a-4f300d3eee70.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\images\\brand\\1fc528c1-f439-442e-8d5e-d47b0ef04d2f.png",
+      "PackagePath": "staticwebassets\\images\\brand\\1fc528c1-f439-442e-8d5e-d47b0ef04d2f.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\images\\brand\\36f52bfe-1968-4777-91af-90707cb12e3a.png",
+      "PackagePath": "staticwebassets\\images\\brand\\36f52bfe-1968-4777-91af-90707cb12e3a.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\images\\brand\\90f090c4-5f48-4cb7-a673-01cb80e57a41.png",
+      "PackagePath": "staticwebassets\\images\\brand\\90f090c4-5f48-4cb7-a673-01cb80e57a41.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\images\\brand\\a644b0ec-96a7-4110-9553-d8d550ffca05.png",
+      "PackagePath": "staticwebassets\\images\\brand\\a644b0ec-96a7-4110-9553-d8d550ffca05.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\images\\brand\\b6fffefe-d2de-4da3-98f5-772975928fa0.png",
+      "PackagePath": "staticwebassets\\images\\brand\\b6fffefe-d2de-4da3-98f5-772975928fa0.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\images\\brand\\cec1e3d8-f26b-4d7d-a68f-800fd356d38d.png",
+      "PackagePath": "staticwebassets\\images\\brand\\cec1e3d8-f26b-4d7d-a68f-800fd356d38d.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\images\\brand\\d24c0486-cbb4-46a1-b776-0250bc6aa95f.png",
+      "PackagePath": "staticwebassets\\images\\brand\\d24c0486-cbb4-46a1-b776-0250bc6aa95f.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\images\\post\\08085ca9-5dfc-4387-8273-367d5931f086.jfif",
+      "PackagePath": "staticwebassets\\images\\post\\08085ca9-5dfc-4387-8273-367d5931f086.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\images\\post\\0a7e5321-5f06-444e-9c37-131ca1a94d14.jfif",
+      "PackagePath": "staticwebassets\\images\\post\\0a7e5321-5f06-444e-9c37-131ca1a94d14.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\images\\post\\10756f6a-c39e-4d94-9f71-06e271f02ec8.jfif",
+      "PackagePath": "staticwebassets\\images\\post\\10756f6a-c39e-4d94-9f71-06e271f02ec8.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\images\\post\\5f278d64-858f-4a3d-a079-1f6ba233be0e.png",
+      "PackagePath": "staticwebassets\\images\\post\\5f278d64-858f-4a3d-a079-1f6ba233be0e.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\images\\post\\916d4c6b-54d1-4c05-9534-fa1fffdc796b.jfif",
+      "PackagePath": "staticwebassets\\images\\post\\916d4c6b-54d1-4c05-9534-fa1fffdc796b.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\images\\post\\b214027b-219c-4d15-a8f6-e5d2e3baa635.jfif",
+      "PackagePath": "staticwebassets\\images\\post\\b214027b-219c-4d15-a8f6-e5d2e3baa635.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\images\\post\\b394ffc9-3b46-44aa-a807-cdcd75743635.png",
+      "PackagePath": "staticwebassets\\images\\post\\b394ffc9-3b46-44aa-a807-cdcd75743635.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\images\\post\\de02de16-1280-481a-9e93-849369dabbb3.jfif",
+      "PackagePath": "staticwebassets\\images\\post\\de02de16-1280-481a-9e93-849369dabbb3.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\GoldenSpeedVechile\\SpeedVechile.WepApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SpeedVechile.WepApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.SpeedVechile.WepApp.props",
+      "PackagePath": "build\\SpeedVechile.WepApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.SpeedVechile.WepApp.props",
+      "PackagePath": "buildMultiTargeting\\SpeedVechile.WepApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.SpeedVechile.WepApp.props",
+      "PackagePath": "buildTransitive\\SpeedVechile.WepApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
